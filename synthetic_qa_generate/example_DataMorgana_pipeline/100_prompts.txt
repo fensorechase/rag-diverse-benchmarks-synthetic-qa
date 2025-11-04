@@ -1,0 +1,1045 @@
+# DataMorgana Prompts - 30 total
+
+### Prompt 1 - Document ID: <urn:uuid:8efe7f6e-df40-4454-9848-dd9a4eae264a> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "bd107101-07b2-436f-95cf-c0fe25b62892", "doc_id": ["<urn:uuid:8efe7f6e-df40-4454-9848-dd9a4eae264a>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+PCI Webinar with Andrew Sanderbeck
+Making Training Stick!
+Competency: Library Management Competencies
+Sub-Category: Staff Training and Development
+You Sent Your Staff Member(s) to Training…How Do You Know That They’ll Apply What They Learned??
+As a supervisor or manager of others, we want to make sure that the time and money invested into training has a positive pay-off. Most times, the pay-off will be greater when you, the supervisor or manager take an active role in helping the employee succeed.
+This interactive and informative webinar program will you give you the tools, questions and a better overall approach to help your employees more effectively and thoroughly apply what they learned in a training program.
+Attendees will learn how to use and apply:
+- A training application form their employees will fill out
+- Specific questions to ask employees when they return from their training
+- A follow-up plan that will get results!
+Andrew Sanderbeck ~ Biography
+Andrew has been developing and conducting training seminars for libraries and library organizations for more than fifteen years. He has presented Web-based, On-line, and Face-to-Face sessions on Management and Leadership, Customer Service and Communication Skills in the U.S. and in numerous countries around the world. He is the founder of the PCI Webinars.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 2 - Document ID: <urn:uuid:54059b2e-f839-4bb7-9a89-4ce0b775bdcf> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "97e8fc2f-f0f2-46aa-a086-cdb0dbdca974", "doc_id": ["<urn:uuid:54059b2e-f839-4bb7-9a89-4ce0b775bdcf>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Has Anybody Seen Manu This Series?
+View Single Post
+06-10-13, 03:40 PM
+Herman Cain of the board
+Join Date: Mar 2003
+Location: Live Oak,Texas
+Hey Jose...didn't you say TD was done a couple of years ago?? First team ALL-NBA this season BTW.
+View Public Profile
+Visit WILLTHETHRILL's homepage!
+Find all posts by WILLTHETHRILL
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+
+### Prompt 3 - Document ID: <urn:uuid:afaac40f-13a9-4aed-9e2a-5c39bd7bd463> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "f819f39a-9e94-4298-9f5e-efc738d73654", "doc_id": ["<urn:uuid:afaac40f-13a9-4aed-9e2a-5c39bd7bd463>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Helps eliminate winding and tangling of rope and cable during pull
+Connects grip and pulling rope
+All stainless steel body construction
+Efficient thrust and roller bearing construction allows smooth rotation even under full load.
+Clevis pins are "shoulder bolt"" style so load on both sides of clevis is taken on the shoulder not on the thread. Select the swivel with a maximum rated capacity that meets or exceeds the cable puller's maximum pulling force.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 4 - Document ID: <urn:uuid:ca11f655-7c46-4692-b24b-53dbf6b389f1> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "c0e14503-bf50-4080-acc6-62c68184d828", "doc_id": ["<urn:uuid:ca11f655-7c46-4692-b24b-53dbf6b389f1>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+I also have a career, so I hadn't more than enough time to operate on my diploma, I noticed which i'm not well prepared whatsoever in 2 weeks before the deadline. And it had been a wonder After i questioned p... Browse far more...
+This was my 1st knowledge using the services of a firm for writing paper. And now I can say with confidence - I built the appropriate decision! Great perform and high quality support - thanks, guys!This overview on Trustpilot
+My expertise was fantastic. I ordered a paper research. It had been shipped ahead of the due date. The articles of this paper is perfect.
+An excellent online author is usually effective at supplying sample operate which might influence its viewers to rent him. If a author isn't going to deliver samples, in no way employ him or her.
+High quality of labor is essential to us. That’s why, we assure to supply you with the services you had been requesting. If you need enhancing or proofreading, we’ll get it done to increase your paper in every single way achievable and make it easier to arrive at your goals.
+commences with an outline of what graduate research/the graduate thesis is centered on after which you can moves point-by-issue by way of a "generic thesis skeleton".
+It's the longest writing endeavor that a student has at any time encountered and positively tops within the depth of complicatedness hence necessitating the service of an skilled dissertation writer. This manner of writing is usually carried out independently, investing huge ample of effort and hard work and time.
+Our Skilled writers are capable to write a thesis on any educational qualification regardless of whether Ph.D., Masters or MBA. Online Essay Writers British isles writers are specially employed to deliver all assistance to pupils who are searhing for Skilled aid in writing their thesis from scratch. All you would like is to acquire thesis on our order webpage to have the personalized thesis in your assignment.
+Even so, some argue that The problem is more complicated than that saying, which the information concluded by Specialist writers is not plagiarized. It is totally special, well-researched and thoroughly-referenced. Whenever a customer buys this sort of solution, he has the right to employ it to be a supply for another paper, or just submit it as his have. The Trainer may perhaps suspect that the scholar failed to write a specific paper, but there is no way to establish these types of claims. Larger training can be an industry on its own. Universities acknowledge much more applicants, which includes Intercontinental pupils who don't have the required grasp in the English language to put in writing incredible tutorial material. On the flip side, they don't offer effective aid that would allow his response these learners to suit in to the procedure. The advantages of employing custom-writing services are huge for overseas pupils. On top of that, college students with portion-time Careers, older college students who definitely have family members and people who are going through tough particular struggles simply just need to have assist to endure all worries they facial area. The swift progress from the custom-writing sector can be a symptom of The nice weaknesses throughout the academic procedure, which place pupils as a result of a lot of stress and psychological struggle. How about The Moral Argument?
+In almost any situation though, the client will present typical enter and route as the rest of the thesis or dissertation can take form.
+We have been in this article that can assist you along with your papers. Regardless of the your paper Read Full Report style is, we may help you increase it. With five+ decades available on the market and diverse industry experts in our staff, we’re wanting to fulfill any tutorial problem during the sphere of enhancing.
+You should assume daily, weekly, or month to month drafts from the writer to make certain that the work is on the ideal track.
+“They may be also excellent in writing. They constantly return the doc by the due date. From time to time they even deliver it hrs prior to the deadline. I like their writing fashion. Really appreciated!”
+With communications staying a significant ability for any person getting into the workforce, our education technique acknowledges this and strives to get ready our pupils by necessitating them to boost this ability as a result of writing assignments.
+How to Write a PhD Thesis () offers many different incredibly practical suggestions on ways to get from the start to the end of your respective thesis challenge - and survive the process!
+Try out saying the identical in a couple of other ways. Gets more durable with each and every upcoming try out, doesn’t it? Consider carrying out it each day for your residing! That’s why we're so pleased with our paraphrasing experts, Which’s why we're sure they can produce the most beneficial standard of excellent for yourself.
+at the rear of the literature assessment includes an argument with two lines of analysis: one) this analysis is needed, and a pair of) the methodology I have picked out is most appropriate for the concern that is being questioned. Now, why would you want to hold out? Now's some time to obtain knowledgeable and to master from Other folks which have
+Additionally they never Charge approximately ordering a whole custom paper and acquire much less time. Using this type of help is handy and can easily come to be an integral component within your customary writing regime.
+com strongly advocate you that you'll have to let us know about your venture requirements and we can offer you the very best remedies readily within the stipulated period of time. assignment aid is offered in time here. India is this kind of significant place with countless states with so a number of languages spoken listed here. Students really need to count considerably upon this 2nd language English listed here to carry out their assignment do the job. When it is easier in like that for the students within the metropolitan metropolitan areas like Delhi, Mumbai, Calcutta, Chennai and so on, consider the plight of The scholars that come from the remote hamlets. They can't present or converse rather successfully in English that easily. They can't reduce marks either. b>assignment aid of the best variety from us helps them to secure finest marks much too. We do such noble services to render assist with assignment for college kids from all over India. cost-free online support is offered for clientele from throughout India. You could remember to Be happy to connect with or electronic mail us any time when you make sure you. We will likely be satisfied to provide you having a smile continuously. Learners might get uncertainties even in the midnight. Will not fear knock our doors at any stage of your time without cost online assist You should Get hold of us at email@example.com for virtually any any assist related to assignments in any topic Related Site of any industry. We might be glad To help you. Convey
+Anything appears to be incorporated from a definition of what precisely is actually a dissertation all of the technique to just the amount of spaces among the title and your name."
+which can be just like Grownup learners generally ? A bad query: Exactly what are the characteristics of rural adult learners within an adult education
+of attending to the tip within your undertaking and using a smile with your face. Using this type of in mind, benefit from the manual. I hope it will let you complete your graduate
+As a way not to spend your hard earned money in vain, opt for learn thesis paper editing. We work flat out to produce our clients satisfied and they are prepared to just take all measures to make sure the most effective final results achievable.
+Due to the wonder of computer technological know-how, you can certainly copy/paste Every single of your respective headings from through your writing into the Desk of Contents. Then sit back again and see When the Table of Contents is obvious and is likely to make fantastic feeling into the reader. You will end up impressed at how straightforward Will probably be to discover areas that could have to have some additional notice. You should not wait around until finally check these guys out the end to carry out your Desk of Contents. Get it done early enough so you're able to benefit from the knowledge it'll provide for you.
+Soon after awhile it will eventually grow to be particularly tricky to remember which draft of one's chapter you may be considering. Print Every single draft of your respective dissertation on a unique color paper. With the different colours of paper It's going to be easy to see which is the most recent draft and you will rapidly see which draft a committee member could possibly be reading. (As a result of Michelle O'Malley at University of Florida for sharing this idea.)
+thoughts far too slender. It's essential to begin with wide relational questions. An excellent dilemma: Do adult learners within a rural adult training environment have properties
+... the realization that you'll be satisfying an academic need, ... The reality that the whole process of conducting the research could possibly be just
+thirteen. Contain a title on your proposal. I'm amazed at how often the title is left for your conclude of the scholar's writing after which you can somehow neglected in the event the proposal is ready to the committee. An excellent proposal has an excellent title and it can be the very first thing that can help the reader begin to grasp the nature within your function.
+If you want not to spend your hard earned money in vain, choose learn thesis paper editing. We work flat out to produce our consumers pleased and so are ready to take all measures to ensure the best outcomes probable.
+Undecided of all the administrative methods at your university that are needed to properly full a dissertation? Look into this very well thought through website from Pepperdine College's Graduate School ().
+com strongly endorse you that you'll need to allow us to know about your undertaking needs and we should be able to give you the very best answers easily throughout the stipulated time period. assignment assist is obtainable in time listed here. India is this kind of huge state with countless states with so a number of languages spoken in this article. Learners really need to count considerably on this second language English in this article to do their assignment get the job done. Though it is simpler in that way for the students during the metropolitan cities like Delhi, Mumbai, Calcutta, Chennai etc, picture the plight of The scholars that originate from the remote hamlets. They can't current or converse pretty effectively in English that simply. They can not eliminate marks possibly. b>assignment assist of the best form from us aids them to secure best marks far too. We do these noble services to render assist with assignment for college kids from all over India. free online enable is offered for clients from throughout India. You can remember to Be happy to call or email us any time while you you should. We will likely be happy to serve you with a smile on a regular basis. Learners may well get uncertainties even during the middle of the night. Will not stress knock our doors at any stage of time free of charge online help Be sure to Get in touch with us at firstname.lastname@example.org for just about any any enable relevant to assignments in any topic of any field. We is going to be happy to assist you. Specific
+driving the literature review contains an argument with two traces of study: 1) this investigation is necessary, and a couple of) the methodology I have decided on is most suitable for the query that's becoming questioned. Now, why would you need to hold out? Now is enough time to obtain educated and to understand from Some others which have
+The standard of the textbooks, as can be predicted, varies considerably. If you would like to check out a listing of your publications I have recognized and my reactions to them, please Simply click here.
+as critical (or more vital) as opposed to results in the analysis, and ... the concept First of all The full research task need to
+Wouldn't it's excellent if there have been a lot of theses/dissertations accessible for reading through appropriate online? Perfectly, there are a few sources you ought to be aware about that could Allow the thing is exactly what the finished products could look like. You'll be able to generally buy a my sources copy of most US dissertations/theses.
+... the realization that you're fulfilling a tutorial need, ... the fact that the whole process of conducting the research can be just
+High quality of work is critical to us. That’s why, we promise to provde the services you were requesting. If you want modifying or proofreading, we’ll do it to boost your paper in just about every way doable and make it easier to attain your plans.
+Just don’t, if you can aid it by just purchasing our paraphrasing service online. Order now, and our greatest expert will begin engaged on it ASAP.
+Submit your timeline within a conspicuous place (previously mentioned your Personal computer keep track of?) in order that it regularly reminds you how you're executing. Periodically update your timeline with new dates as required. (As a result of a web site customer from Philadelphia for sharing this idea.)
+In conjunction with the accompanying Fb page I are already writing and publishing Notes for my "Fans" each and every 7 days or two. These shorter Notes/Essays manage a variety of matters usually introduced up by audience focusing on their thesis or dissertation. Not too long ago the Fb web site has actually been performing pretty temperamental and I've not been quite successful in acquiring them posted. So, I've decided to also involve them below. Just Just click here to go to the Fb Notes Archive.
+Utilize it sensibly! Focus on your title early in the method and revisit it often. It is simple to get a reader to determine Those people proposals where the title has long been focused blog upon by the scholar. Getting ready a great title usually means: ...acquiring The main text look toward the start of your respective title,
+“They managed to paraphrase for me so very well, which i could barely figure out my previous paper!” stated one of our clients. It describes the standard of our services, rather effectively, don’t you believe?
+You'll be able to read quite a few textbooks for obtaining knowledgeable about different approaches and structure with the text. Unless you realize the exploration methodulogy, you will not be capable to slim down a topic.
+This is certainly something which has enabled us to improve and to fulfill our customers even more. Timely Delivery Assure The corporation incorporates a 24 hour help, and also your messages are replied to within just minutes. Good communication and collaboration among the representatives of the corporate, writers, and The client are amongst the simplest and successful methods of delivering high-excellent be just right for you. There are a lot of online custom made essay sites that could only guarantee high quality quality, plagiarism-no cost and speedy supply but like a matter of simple fact supply very poor-good quality customized essays prepared by unprofessional writers. Our outstanding team of capable writers operate times and night time to help you after you question us to write down my essays. It may be the hardest matter to admit by any pupil, but really, it's true that owning stress-cost-free school times and nights is really difficult to obtain. Our fantastic team of skilled writers operate days and night to help you any time you inquire us to jot down my essays. We wish to reassure you that Individuals worries are groundless in any way. We wish to reassure you that Individuals anxieties are groundless whatsoever. Get Now
+Should you be having troubles Placing with each other your Literature Evaluation chapter you might want to look into this weblog regarding how to Generate a PhD Thesis () by Professor Joran Beel (UC Berkley). Professor Beel seems at how to search for literature with educational search engines like google and yahoo and then focuses on software program tools that will help in managing the literature(utilizing PDFs, making summaries with bookmarks, and creating "mindmaps" of every little thing that you are feeling is essential to get integrated).
+a far better picture of what need to navigate to this website be envisioned at this Conference. In spite of exactly what the Conference is named, try and understand that the goal
+In the event you don’t really feel up to it just but – we've been right here that can assist you! With all sorts of dissertation services obtainable, you can decide on just the ones you must move this ordeal with traveling colours.
+To fix it, he contacts us, submits his paper and orders a paraphrase service. When One more plagiarism Check out is completed after the service has been sent, the plagiarism rating is near zero, and the paper is 100% Harmless for submission.
+With the title you should be able to convey to your readers exactly what the study is about. It ought to be precise and representative from the investigation you may have done. You can request your mentor with regards to the required format for title page.
+A dissertation is Commonly an integral A part of acquiring a Bachelor's degree. It is not to be puzzled having a thesis which happens to be published for getting a Grasp's diploma.
+A PhD is extremely coveted to be a gateway to beneficial positions of prestige and accountability. Though...
+Make sure you enter a legitimate e-mail deal with or phone number Thanks to your fascination inside our services! We're going to contact you in just ten minutes. Great!
+Deficiency of investigation abilities. Plainly, this paper requires additional energy plus more talent than almost every other paper. It is not merely amassing quotations from various applicable means and paraphrasing them to generate them seem like your very own ideas. They need to be analyzed and discussed.
+It’s all a make any difference of the proper viewpoint. You must get many stands on what you're as somebody, and include that all within an purchased sort.
+Several learners lack the required abilities required to publish my dissertation. For that reason, they start searching a perfect dissertation author.
+Higher-good quality work Whatever you get are prime-notch operates which might be often tailor made and thoroughly researched. Our writers are execs. Hence, all the papers you get from us are constantly a hundred% original and peerless. Our group helps make guaranteed that almost everything is done straight to the requirements of Get More Information one's tutor and punctually. Handle and transparency You get usage of your personal cabinet once the order is created.
+Publish your timeline within a conspicuous location (above your Laptop observe?) making sure that it continuously reminds you how you're undertaking. Periodically update your timeline with new dates as desired. (As a result of a website customer from Philadelphia for sharing this concept.)
+Plagiarism is terrible and illegal. Ever worse – it can get you expelled. Isn’t it a very good rationale to implement some more help? We believe that it truly is. That’s why There is certainly a complete Section here that does paraphrasing for shoppers. It really works somewhat effortlessly: a consumer runs a free of charge plagiarism check on his paper and finds out the rating is just too superior.
+We're in this article that can assist you with your papers. Regardless of the your paper variety is, we will let you boost it. With five+ several years on the market and various authorities in our workforce, we’re all set to meet up with any academic problem in the sphere of modifying.
+powering the literature overview is made of an argument with two lines of analysis: one) this investigate is needed, and a couple of) the methodology I have preferred is most suitable for the problem that is currently being asked. Now, why would you need to hold out? Now's time for getting informed and to discover from Other folks who've
+“They managed to paraphrase for me so very well, that I could rarely identify my old paper!” said one among our shoppers. It describes the standard of our services, very very well, don’t you think that?
+If you are owning issues putting together your Literature Evaluation chapter you may want to take a look at this weblog regarding how to Generate a PhD Thesis () by Professor Joran Beel (UC Berkley). Professor Beel appears to be at how to find literature with academic search engines like yahoo and after that focuses on software program equipment which will help in handling the literature(utilizing PDFs, creating summaries with bookmarks, and building "mindmaps" of almost everything that you are feeling is vital for being included).
+Every time you work on the paper Stick to the exact A to Z approach. This will assist you to visualize the end product or service within your endeavours from quite early inside your writing and every time you're employed with your paper you will be making the whole paper - from the to Z. Many thanks David!)
+How to Write a PhD Thesis () provides many different pretty beneficial strategies on how to get from the beginning to the top of the thesis project - and survive the method!
+Emotion somewhat lonesome in the process of writing your thesis or dissertation? Have a moment to discover who else has frequented this Internet site and read what Many others have stated about this Guidebook () and their individual situation. It would just be reassuring!!
+more time than you might be ready to dedicate then you have a issue. I comprehend it's nevertheless early inside your pondering nevertheless it's click this site under no circumstances too early to make a draft of a timeline. Check out using the six Stages (see the next product) and set a start and a end time for each.
+of attending to the top within your job and by using a Home Page smile in your deal with. With this particular in your mind, take pleasure in the guide. I hope it will assist you to finish your graduate
+They also will not Expense as much as purchasing a complete tailor made paper and acquire much less time. Using this kind of help is effortless and can certainly grow to be an integral section of one's customary writing regimen.
+starts off with a description of what graduate study/the graduate thesis is all about then moves position-by-stage via a "generic thesis skeleton".
+I believe you'll find many different Suggestions that should be practical to you as you're employed towards the completion of the thesis or dissertation. (Observe: Periodically I obtain requests for info on how to organize a "thesis assertion" as an alternative to essentially writing a thesis/dissertation. How To put in writing a Thesis Assertion is a wonderful Site that clearly sets forth what a "thesis assertion" is And exactly how to actually get ready one particular.) Summary of Important Suggestions During this Tutorial The Contemplating It Stage
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+
+### Prompt 5 - Document ID: <urn:uuid:c1f3c90d-95b1-4416-8da0-d77f192a4c47> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "43df39d3-5f4b-427d-a44c-b2b2756276a4", "doc_id": ["<urn:uuid:c1f3c90d-95b1-4416-8da0-d77f192a4c47>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+Activity level: Moderate
+Discover during this family adventure trip, the mystery of the Incas. Peru is known for its Inca ruins and the lost city of the Machu Picchu. The landscape creates amazing views of the snow-capped Andean peaks. In the villages you can get acquainted with the colorful Indian population. Of all the Inca ruins Machu Picchu is the most famous. The location of this city by the Spaniards never found out is almost more mystical than the city itself. On foot via the famous Inca Trail you´ll travel to the highlight of this adventurous family trip.
+Visit Chincheros where the colorful people with the typical customs look awesome! Mixing the adventure with culture in an unique tour in the Sacred Valley and the freedom that comes with practice of mountainbiking on small roads having the best views of snow mountains and traditional agricultural life.
+In the capital of Peru, Lima, you enjoy a water show in the Parque de la Reserva and a dinner show in the famous restaurant La Dama Juana. Combine culture and adventure in this family trip in Peru and discover the land of the Incas!
+► DAY 01: Lima Details
+At your arrival in Lima your private transportation will take you to your beautiful hotel in Miraflores. In the afternoon you will go on a guided excursion to the ¨Magical Water Circuit¨ the largest water fountain compound in the world, certified by Guiness World Records. Here you will enjoy a wonderful display of water, light, music and images presented at Reserve Park, one of Lima´s most beautiful urban areas.
+Afterwards you will be able to enjoy a buffet dinner at La Dama Juana restaurant, one of Lima´s most famous places to explore the best of Peru in one place. Enjoy the delicious food and the typical dance show.
+► DAY 02: Lima- CuscoDetails
+According to your flight´s schedule you will be transferred to the airport in order to take your flight to Cusco. On your arrival in Cusco you will be taken directly to the Sacred Valley. Today you will enjoy a full day tour of the Sacred Valley. The Sacred Valley of the Incas is as magical as it name suggests: a winding trail of lush, green slopes lining the Urubamba River. Discover everything from colorful markets to fascinating architectural remains.
+You will visit Chincheros where the colorful people with the typical customs look awesome. Its settlers live in almost intact Inca constructions, in the same place where their ancestors lived and formed the largest and most prosperous civilization in America. After this we will have lunch at the Huayoccari Restaurant and then we will continue to the town of Ollantaytambo, one of the oldest continuously occupied settlements in the Americas. Climb the steep stone steps up to the imposing fortress at the top of the mountain for breathtaking views down the valley, and admire the huge monoliths that form the Temple of the Sun. Finally you will be taken to your beautiful lodge.
+► DAY 03: Sacred Valley Details
+Mixing the adventure with culture in an unique tour in the Sacred Valley and the freedom that comes with the practice of mountain biking on small roads having the best views of snow mountains and traditional agricultural life.
+In the morning you will meet your guide at your hotel and you go by bus to the village of Chequerec where we start our bike tour. Passing the lagoon of Huaypo, we arrive at the archeological center of Moray where we stay for more or less 40 minutes to enjoy the beauty of Nature and Archeology. This part of the tour is very adventurer because of its constant ups and downs.
+Continuing our trip we arrive to Maras a picturesque town in the Andes. Afterwards, 1 hour downhill ride let us feel the peace of the Andean countryside. After this great time you go on riding to the terraces of salt in Maras and then start again a downhill to the Sacred Valley (pichingoto, tarabamba), where is the end of our biking tour. We will transfer you to your hotel in Sacred Valley.
+► DAY 04: Sacred Valley – Wiñay Wayna – Machu Picchu Details
+At the coordinated time your private transportation will take you from hotel to kilometer 104 (the start of the trail for us). From here, we have a walk of approximately 4 hours up to the Inca site Wiñay Wayna (´Forever Young´8792 ft). You have joined the path in time to see the most impressive site on the whole Inca trail.
+We will then continue on to ¨Inti Punku¨ (Sun Gate 8792 ft) from where you will have the first dramatic, panoramic view of Machu Picchu. We will walk down the last part of the trail towards the ancient city itself. We will leave the visit to Machu Picchu for the next day. You will spend the night at the closest lodge to the Machu Picchu, and then you have the chance to be one of the first guests to get into the citadel.
+► DAY 05: Machu Picchu-Cusco Details
+After breakfast your guide will meet you at your hotel and will go with you to the Machu Picchu. You walk from your lodge right to the ruins of Machu Picchu and you will be there before anyone else! Our tourguide will give you a guided tour of approximately 2 hours and 30 minutes, visiting the Inca Terraces, The Agricultural Sector, The Urban Sector etc. Then you will be able to have plenty of time to explore this mysterious city by yourself!
+Things to do:
+- Walk up to the Sun Gate (45 minutes to 1 hour)
+- Walk up to the Inca Bridge (40 minutes)
+- Walk up to Huayna Picchu Mountain (2 hours, early booking requiered)
+In the afternoon, you will take the bus down to the town of Aguas Calientes in order to catch the train back to Cusco. When you arrive back in Ollantaytambo or Cusco´s train station we will pick you up and bring you to your hotel
+► DAY 06: Cusco Details
+At 7am or 12pm pick up from your hotel, our car will transfer you to the south of Cusco where the ranch is located. There we will meet our horses and horseman, who will show us how to saddle and practice how to drive the horses inside the corral before to get outdoors.
+We begin the riding tour going through the Inca ruins located around Cusco. During the guided tour we will pass through agriculture field of native productions. The landscap will offer us spectacular view of the mountains and lots of contact with the nature and mother earth.
+Riding the friendly horses and acompanied by the horseman we will stop in different places with the opportunity to enter some Inca Remains. During the tour we will stop at the best point to get a light snack and get the remember picture of this amazing tour riding Peruvian horses around Inca empire. After 5 hours of riding tour you will be transferred to hotel to end the tour.
+► DAY 07: Cusco-Lima Details
+Today you will have a flight to Lima on your arrival you will be taken to your nice hotel in San Isidro. Right after, you will enjoy a nice full day tour where you will visit the Larco Museum, the largest and most impressive pre-Columbian art collection in the world.
+Located in a 18th century vice-royal mansion, built on a pre-Columbian pyramid of the 7th century. Its new galleries display the best and most complete collection of gold and silver of Peru. Afterwards you will have a typical lunch.
+► DAY 08: Lima Out Details
+At the coordinated time your private transportation will take you to the airport, so that you will be able to take your flight back home.
+-An ideal voyage to enjoy the best of the Country.
+-Carefully thought for adults and children to enjoy.
+-Delicious local food on each location for everyone to try something new.
+-Learning focused tours and visits especially in the Sacred Valley.
+-Hike around the breathing Machu Picchu compound.
+-Amazing natural and cultural scenarios for the perfect family album.
+All tours and excursions specified with licensed bilingual guide & transportation.
+Transfers to/from Airport and others where detailed.
+Accommodation on selected hotel (category) with Breakfast.
+Entrance fees to visited sites.
+24/ assistance when on tour.
+TOUR DOES NOT INCLUDES
+International and domestic flights in Peru.
+Lunch and Dinner where not specified.
+Additional entrance fee, tours & sightseeing besides mentioned.
+Personal expenses, extras, tips and drinks.
+Other services not specified in the program.
+Travel, medical and cancelation insurance.
+Trip Style: Family Adventure – Cultural
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 6 - Document ID: <urn:uuid:8b07ad6f-efdc-4da1-a402-02ecd4f08ac7> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "70884ad1-0144-4ef6-9d41-199ae50f3b86", "doc_id": ["<urn:uuid:8b07ad6f-efdc-4da1-a402-02ecd4f08ac7>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+The usually perceived reason of any worker, couriers included staying motivated is money. Money is the first thing that comes in mind and we all work for money so of course; a courier should stay motivated as long as the opportunity to earn more money is possible. If someone is not earning as much as they feel they deserve then it can be easy to become demotivated by it. It is the responsibility of the manager to provide the scope for progression, and this goes for any job. This is why a goal should be to work for a reputable company like askabsolutely.com that treats employees with respect.
+The second thing which can provide motivation is knowledge and experience. Becoming a master in any field is hard to achieve and as a courier, you always have to consider the different ways that you can be expanding your knowledge. Spending a lot of time on the road means that there is a lot of time taken up driving, giving the perfect opportunity to perhaps listen to informative podcasts. They can gain new experiences in many regards, including meeting several different types of people, some friendly and some not so much. However, this is all part of the learning process, which sets you up for similar future experiences.
+One thing that is essential in every way is to create your own goals. Sometimes we keep on working but we never set targets and that can be a reason for a lack of development. This is very critical in getting motivation because you should know what you want to achieve in life and as a courier, you can easily put a ceiling on yourself, limiting you to a certain level. In the long run, you should always think about how you can optimize your life.
+Another way to stay motivated as a courier is that you have to try different things. The reason why we are bored or not motivated is that we do the same thing over and over again. Move out of your comfort zone occasionally, couriers should think of different ways to pursue their career and trying new things is essential to keeping yourself entertained and content with the career path you have chosen.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 7 - Document ID: <urn:uuid:88a29756-8d9f-4756-9237-4b526a039e87> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "03cff539-29f6-4dd9-b9bd-f26177dc26d5", "doc_id": ["<urn:uuid:88a29756-8d9f-4756-9237-4b526a039e87>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Help Decipher Energy Audit Report
+I got an energy audit a couple of years ago and completet most of the main recommendations in the report. I am finally ready to replace our HVAC system and have shown this report to 3 different contractos and each one seems to give me a different answer in regards to the size/load of a new system.
+Currently there are 2 systems -- gas furnace and A/C (a 2 ton and a 3 ton). The unit is about 10 years old and is rates at 80% efficiency with the A/C units coming in at 10 seer. The house is 3000 Sqft, and located in SF Bay Area -- so pretty mild climate.
+Our duct system is a jumble of mess, so it will be completely replaced during this process (one of the main recommendations of the report)
+My question is as follows: Given the attached report what size system is appropriate for our house -- both A/C and Furnace? It seems the contractors I am talking to are pushing a bigger system that the report indicates -- but then again the problem might be my amature eyes translating the report.
+Can you serve the house with one system?
+That is what I am being told -- that a single 5 Ton (York YP9C and a 16 Seer A/C) can easily handle the entire house. However -- given the numbers from the report -- that seems like a bit of overkill.
+So what is the suggested size given the audit/load report?
+I don't see where the report mentions what the heat load calc was. I only see the breakdown for heating, not cooling.
+An answer without a question is meaningless.
+Information without understanding is useless.
+You can lead a horse to water............
+Yup, they talk about manual J, but no numbers are given.
+Originally Posted by tipsrfine
+Make your expertise uniquely valuable.
+Make your influence uniquely far-reaching.
+If they are choosing comparable unit sizes. The bids should be close to apples/apples make your choice and ensure they provide an updated load calc.
+Your current heating system is big for your home.No info on cooling provided.
+If you think our goverment is screwed up. You haven't lived in another country.
+any 5 ton unit will have at least a 100,000 btu furnace ,5 tons in for 3000 ft in frisco seem kinda big to me .
+Originally Posted by ootyboy
+Looking at yoru electric bill, it doesn't look like you hardly use any AC. Get a load calc done, but just based on useage, I'd guess a 3 ton might be big enough for the whole house. Based on gas useage, I dobut you need more than a 60k BTU unit... if even that big.
+Honestly, if you current system is still working, I'm nto seeing much savings replacing it.
+Now... I'd look at some other energy savings things like lighting, or whatever else your using electricity for. you're over 1000kw-hr even in mild months. Wow! I have a 3200sqwft house with my wife and 1 kid and out Oct. bill (when mininal heating or cooling was used) was around 500kwhrs. You must have a ton of incadescent bulbs you leave on all the time, big TV's, electric water heater, do a ton of clothes or cooling an plug-in electric car maybe? That's some big time base load useage.
+SF CA summer design is 85-DB; it was the RH # 75% RH mid-day. My ARI text book shows 71 DB 62 WB; I didn't think that could be right so I got DB WB numbers off the web, so numbers may not be totally correct; that gave the RH% not the wet bulb...
+Originally Posted by ootyboy
+Therefore it appears you have a high humidity situation with mild outdoor temperatures.
+The last thing you want with those conditions is an oversized A/C or heat pump! Someone should have performed a room by room manual J heatload Calc. Five-Tons has to be way too big!
+Last edited by udarrell; 12-16-2011 at 12:28 PM.
+Reason: Five-Tons has to be way too big! RH # 75% RH mid-day.
+Thanks for feedback everyone. It is very helpful.
+In regards to the electric bill it has been crazy high. We have a ton of 4" recessed lights in the house with 40W halogen bulbs. Last month I spent a small fortune and replaced them all -- about 40 with LED bulbs that are only 6 Watts. I have yet to see a current bill to see if has had any effect. We also have a Koi pond with a pump that is about 300W that runs 24/7, but aside from that there is nothing out of the ordinary.
+In terms of location I am actually more in-land from SF - near a city called Walnut Creek. It does get quite a bit warmer here than in SF. However, we probably use the A/C no more than 3 to 4 weeks a year. The rest of the time the weather is quite pleasant.
+As for the reason for the replacement is really a question of comfort. The current heaters just runs and runs and the house is still freezing. I know part of that is the duct work and better placement of the registers/returns(which is part of this project), but I think the heating system is working way too hard and not really doing anything. I was told by all the contractors that the register and return placement will have to be changed to make it better - and they are telling me that the first heater is undersized and the second way over sized.
+We do have new insulation in the attic, floors and walls and new energy efficient windows. For a 60 year old house, it is sealed pretty well.
+The second unit is way over sized for the area. For a 2 ton unit it has like 4 registers and when it runs it blows very very hard and is noisy. During the summer when we do run the A/C, we've noticed that both units run pretty much all day to just get the house down to 80!!
+One of the contractors told me that he will run a a load calculation, but they are all adamant that given our house (ceiling height, windows, flooring) etc. a 5 ton unit is the minimum. All three companies I am working with are local, so they know the area very well -- but I am really afraid that they are all playing it very safe by over sizing the unit...
+The pond exaplins a good chunk of it. That's 216 kw-hrs if it's actually consumping 300W. So it's almost 20% your electrical consumption.
+What's insteresting si that you general use is so high and varies so much that you can't even differentiate your consumption from AC use. Its' probably less than 300 kw-hrs. That makes me thsi that you prbably don't need anything more than a 3 Ton. Actually most of your load is likely cooling tha house due to all those lighting loads.
+Heck, I can even tell that you probably took a vacation during one month because you useage dropped dramatically.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 8 - Document ID: <urn:uuid:86c64326-a07d-4b4e-ac2d-fe9681382942> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "0bb0f211-cd8f-42e8-9f2a-794c48ec8e3d", "doc_id": ["<urn:uuid:86c64326-a07d-4b4e-ac2d-fe9681382942>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+Hurricane Michael formed from a tropical disturbance off of the Yucatan Peninsula of Mexico. As a loosely organized tropical system, it rapidly formed into a hurricane on October 7, 2018 and subsequently made landfall in the Florida Panhandle at Mexico Beach on October 10, 2018, as a catastrophic Category 4 hurricane. While most Floridians were spared any significant damage from Hurricane Michael, the Florida Panhandle, specifically the cities of Mexico Beach and Panama City, suffered the worst of this major Category 4, almost Category 5, hurricane. To put the power of this hurricane in perspective, Hurricane Michael was the third-most intense Atlantic hurricane to make landfall in the United States only behind the 1935 Labor Day hurricane and Hurricane Camille in 1969. It was the strongest in terms of maximum sustained winds since Hurricane Andrew in 1992. All of these unfortunate stats mean that the Florida Panhandle has been decimated by this force of nature.
+Hurricane Michael Insurance Adjusting
+While the nation and most of Florida watched as the Hurricane Michael narrowed its sights on the Panhandle, I couldn’t help but wonder how many people were going to be devastated by this hurricane. Not only from the damages it has incurred, but the impact it would have on their lives and livelihoods. In times such as these, home and business owners often take some relief in the fact that they have insurance policies in place for hurricane and flood damage. They hope that once the wind subsidies and waters recede, their insurance companies will pay insurance benefits to repair their home or business. Unfortunately, this belief is all too often untrue. Homeowners and flood insurance companies do their best to adjust the claims which will be forthcoming after Michael however; they will be flooded with these claims. As a result, claims will be wrongly underpaid or outright denied. The causes of these underpayments and denials are far-reaching but many result in the fact that the insurance companies enlist ill-prepared field adjustors and claims handlers which results in poor coverage decisions on behalf of home and business owners. Unfortunately, the home and/or business owner is left with dealing with the harsh reality that an insurance company may not be fully covering what it is legally obligated to cover. In order to help the victims of Hurricane Michael, I have put together a list of items an home or business owner may find helpful in facilitating their own insurance claim. Provided the insured has performed everything they’re supposed to under the policy, then it is up to the insurance company to do the right thing. If the insurance company refuses to do the right thing, Property Damage Attorney Jonathon Douglas stands by ready to assist in any way possible.
+What to do for your Hurricane Michael Insurance Claim
+Most insurance policies typically have a section entitled “Your Duties After Loss”. These duties are directed at the policyholder and should be complied with to avoid any sort of coverage issues that the insurance company may try to assert. A trick in this paragraph is oftentimes found in the first sentence wherein the insurance company sometimes states that “we have no duty to provide coverage under this policy if the failure to comply with the following duties is prejudicial to us.” This is sample language from a HO-3 Homeowner’s policy; however, it illustrates the potential for a “gotcha”-type tactic insurance companies can use to avoid providing insurance coverage. Generally, an insured (homeowner or business owner) must perform the following:
+- Give prompt notice to the insurance company or your insurance agent.
+- Provide reasonable access to the property to allow the insurance company to inspect the loss.
+- To the extent reasonable, retain damaged property and allow inspection of same prior to disposal.
+- Protect the covered property from further damage. This means you must take reasonable emergency measures that are necessary to protect covered property from additional damage and you must keep an accurate record of repair expenses.
+- Cooperate with the insurance company during the investigation of the claim.
+- Prepare an inventory of damaged personal property in the format requested by the insurance company.
+- As often as the insurance company requires:
+- Provide records and documentation insurance company requests;
+- Submit to recorded statements when requested;
+- Submit to an examination under oath if requested;
+- Allow samples to be taken of the damaged or undamaged property;
+- Execute any and all authorizations for release of information requests by the insurance company.
+- Provide the insurance company with a proof of loss form when requested.
+Cooperating with your insurance company is imperative to facilitating the adjustment of the claim. While you may fully cooperate with the insurance company, this does not guarantee or ensure the insurance company will fairly and accurately adjust your claim. Remember, there is always the option to get a second opinion on the value of your claim. St. Petersburg Property Damage Attorney Jonathon Douglas and his team focus on providing homeowners and business-owners evaluation and analysis of their insurance claims and will provide the much-needed second opinion related to your Hurricane Michael insurance claim. Don’t settle for what the insurance company initially offers to pay or their initial coverage decision! Call us now for a free consultation.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 9 - Document ID: <urn:uuid:37b668cc-cde1-4693-928d-0e16959fe44d> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "10ea50e2-639f-45c2-b515-0b634ebad708", "doc_id": ["<urn:uuid:37b668cc-cde1-4693-928d-0e16959fe44d>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+User listings, member directories, search, filter, export. Digs deep into data created by other plugins to produce unified user listings.
+You confirm the magic of WordPress's ecosystem.
+I was looking for a plugin to do exactly what "amr users" is doing. After trying several, I was about to climb along the high mountain of developing myself something when I discovered amr users.
+Slowly but surely the sun goes up the valley of the perfection and now I feel saved.
+Users are already enjoying benefics of "amr users".
+Thank you, very, very much Anmari
+Robustly coded and powerful features. I coudn't find anything better that this one. Great support form the developer. I really recommend checking out the plugins website.
+If you are somehow, stuck with s2member like me, then you must try amr. It is the easiest way I have found to access s2's custom fields data in a meaningful manner.
+Hi and Happy new year! This plugin is amazing and your support is great. I can't believe the amount of power and extensibility that this plugin offers. Clearly one of the best I've ever used. Thanks for developing this!
+Thanks for sharing this plugin with the WordPress community. amr users integrated nicely with other plugins in the development of a state-based police memorial website. Thank you anmari!
+In our small website at http://www.countrybears-linedancer.com we wanted to integrate a contact and birthday list. This plugin is the best possibility to realize it.
+I tested somewhere 15 plug-ins (on the best features of a relevant search), and this is the only plugin that adequately filters lists of users based on the values of the custom fields created by other plugins. The coolest thing! Thanks to the developer!
+very powerful !!
+A user listing of that kind is something very rare !
+Very nice plug-in and absolutely useful for my homepage.
+So far from what I can see, works as described. Provides a very useful intermediate enhancement to the (hopeless) user management features native to WordPress without taking step further with a CRM system or organizing a forum structure. I really like that new reports appear in main User dropdown area, so not required to head elsewhere in admin panel -- not sure if option to disable appearance there with tickbox or not, but my requirements are for only a few customized user reports.
+Support from the plugin author on one, small, technical point I had was both highly responsive and an excellent attitude.
+You must log in to submit a review. You can also log in or register using the form near the top of this page.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 10 - Document ID: <urn:uuid:6c736c54-b6a3-44a5-b3e3-e3b4209ec1d7> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "61fe9800-9861-4a6a-96d6-331a6fd8e1ff", "doc_id": ["<urn:uuid:6c736c54-b6a3-44a5-b3e3-e3b4209ec1d7>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Baby Shower Invitations, Inspiring Fancy Baby Shower Invitations As An Extra Ideas About Unique Baby Shower Invitations: Fancy Baby Shower Invitations. Published at May 16th, 2019 02:01:55 AM by Loredana Bersani
+A baby shower potentially won't be able to come about without the invitation. Though you will find other suggests like telephone calls and simply telling persons, but it is constantly awesome for them to have some thing handy that will remind them about the shower. This kind of usually means are very informal, and you'll find other company who like to conserve invitations as being a memento in the big day.
+There are actually two selections regarding how to appear up with baby shower invitations. The main 1 is by going to a specialty retail outlet and purchase invitations. Pre-made invitations readily available at retailers normally fabricated from special card papers with lovable pictures printed on. There are actually presented spaces where you can print wordings on. You'll find specialty suppliers that cater personalized tips, such as you can buy a batch of custom-made invites which can be made as outlined by whatever you drive.
+The second one will be to make your own private invites at your house. Do it yourself showers in many cases are a cost-effective alternative for people who are on a restricted funds. You could look for a number of sweet templates for showers on the web totally free. Merely invest in unique card papers after which you can you can have them printed with all the template you have chosen. It really is your choice if you would like to handwritten the playing cards for a further influence. Just be creative when creating your individual baby shower invitations, but you should not go overboard.
+What is actually printed around the card could be the most important of all. There are actually a number of details like the name of your attendees of honor, date, time, location, and RSVP facts need to properly be integrated within the invites. Also, in the event the mom-to-be registered for presents, you might also place the child registry info to the invites and so the attendees is going to be knowledgeable about that. It avoids telephone phone calls simply to talk to the place she registered gifts, what items to order as well as like.
+The wording over the cards should categorical what mood does the affair has. You are able to use poems to convey the theme on the occasion or any sweet and loving information that really categorical a welcoming mood not merely for that visitors and also for the impending baby. In case you have got a challenging time coming up with anything to add on the invitations, analysis on line for better selections. The net is usually a terrific supply of every little thing you will need when planning a shower, from shower invitations, shower favors, shower decorations to baby shower gifts and baby shower video games.
+Labelled as customized baby shower invitations object along with baby shower stationery discussion and baby shower ideas elegant object and elegant baby shower topic with unique baby shower invites area of interest plus elegant baby shower invitations discussion also Baby Shower Invitations, So don't forget to check out the main article in Fancy Baby Shower Invitations
+Fancy Baby Shower Invitations Photos
+Related to Inspiring Fancy Baby Shower Invitations As An Extra Ideas About Unique Baby Shower Invitations
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 11 - Document ID: <urn:uuid:2e19fe77-833b-4c6e-a510-70b2c2761038> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "8e096499-69bf-4c61-97ab-8fe6c9a5a78a", "doc_id": ["<urn:uuid:2e19fe77-833b-4c6e-a510-70b2c2761038>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+India is fast emerging as a hub where domestic and multinational corporations (MNCs) are busy churning out a host of low-cost, entry-level products for emerging markets.
+"This is the biggest untold story about India," Rajdeep Sahrawat, vice president of Nasscom, told ZDNet Asia in a phone interview. Nasscom is India's trade body and chamber of commerce of the country's IT-BPO industry.
+From laptops to mobile phones, and from cars--such as the US$2,500 Tata Nano--to motorcycles and consumer durables, India is now home to several low-cost innovations.
+Both Indian and multinational companies are going the whole hog in utilizing India's talent pool for developing low-cost products. From mobile handset manufacturers such as Nokia and Motorola, to IT majors Hewlett Packard (HP) and Dell Computer, and automobile manufacturers such as General Motors and Suzuki Motor, manufacturers from various industries have set up research and development (R&D) centers that focus on developing entry-level products.
+Sahrawat said: "The last time we took stock, there were some 650 captives operating in India." Even companies that do not have operations in India have also established R&D facilities in the country, he added.
+Low on cost, high on technology
+"From plain and simple cost arbitrage, India is today offering tremendous value arbitrage," Ravi Bhamidipati, executive director of performance improvement at PricewaterhouseCoopers India, said in a phone interview.
+According to Bhamidipati, India's advantages emanate from the fact that the country's rich talent pool is able to span the entire value chain, from low- and medium-skill jobs to high and even intellectual skill jobs.
+Sahrawat said: "Low cost does not mean low technology. Simple, low-cost solutions often require very complex technology." He added that the technology behind Tata Nano, for instance, is "extremely complex" and neither cheap nor simple.
+George Paul, executive vice president of marketing at HCL Infosystems, noted: "We often underestimate the innovative prowess of the domestic players, and have so far been looking for technological innovations from the West.
+"With the launch of innovative products like Tata Nano and HCL MiLeap, that perception is slowly but surely changing," Paul said in an e-mail interview. HCL has R&D centers, dubbed HCL Labs, across three locations in India.
+"The HCL Labs serve as hubs of technological innovation and the design centers of future HCL products and solutions," Paul explained. The latest innovation from the HCL stable is the newly-launched MiLeap range of "Leaptops", or what HCL describes as mobile devices that are similar to laptops, with an ultra-small form factor. The devices are priced at US$331 (13,990 rupees).
+Nasscom's Sahrawat said: "India is emerging as an R&D powerhouse. It's not that India is doing only simple, coding work for the global products. Indian captives are today a major source of innovations."
+India's large and growing domestic market is helping both homegrown and multinational corporations. Bhamidipati said: "India has a very strong domestic market that is increasingly getting more prosperous. Unlike other economies, India is not dependent only on exports."
+In addition, requirements of the Indian market are unique. "The solutions for India are very different from the solutions multinationals undertake for the developed world," Sahrawat said.
+A small and midsize business (SMB) in India is very different from an SMB in Munich or Montreal. For this reason, several tech vendors have developed products especially for the Indian market.
+For example, HP builds a range of desktops including its Compaq dx2000 Business Desktop PC series, Compaq dx2480 Business Desktop PC, Compaq dx290 Business Desktop PC and Compaq dx260 Business Desktop PC, out of its lab in Bangalore, India.
+"These business PCs have a high-performance machine that has the ability to withstand harsh Indian working conditions and delivers productivity and efficiency consistently," HP said in a statement. "With a small form-factor, these desktops are ideal for organizations that struggle with challenges such as space limitations, data security and power consumption, especially in the ITES sector."
+HCL also offers a desktop PC, Neutron, which features a compact design and offers power saving of up to 76 percent. According to the company, the system occupies 85 percent less space compared to other competing products and is available at US$393.
+In 2000, Nokia developed its 3210 handset to support Hindi menu, and in 2003, the Finnish company unveiled its first handset--Nokia 1100--made for India.
+Today, the handset maker has three R&D centers in three Indian cities: Bangalore, Mumbai and Hyderabad.
+A Nokia India spokesperson told ZDNet Asia that the company's plant in Chennai, set up in January 2006, today manufactures over 125 million handsets and exports 50 percent of its output to over 50 countries across the world.
+Another handset maker Motorola has two R&D facilities in India--located in Bangalore and Hyderabad--that are responsible for developing sub-US$40 cellular phones for emerging markets.
+Sahrawat said: "The next set of [potential] consumers for MNCs are those that live in emerging economies of India, China, Brazil and Russia. Therefore, there is little sense in replicating products developed for the Western markets."
+Indian companies, too, are looking to ride the low-cost wave.
+Following the launch Tata Nano in January this year, Indian automotive company Mahindra and Mahindra (M&M) announced it is developing a platform for low-cost utility vehicles. Expected to roll out by end-2009, these vehicles will be available from US$9,400 (400,000 rupees), compared to prices of other utility vehicles in the market at US$14,000 (600,000 rupees). M&M also has plans to launch an ultra-low cost tractor for India's rural market.
+Swati Prasad is a freelance IT writer based in India.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 12 - Document ID: <urn:uuid:75423e8e-58cb-4abe-8487-f88f039b9d74> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "5a5ee19c-eb64-43af-9ad1-a52d9cf3765a", "doc_id": ["<urn:uuid:75423e8e-58cb-4abe-8487-f88f039b9d74>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+10 Tips for Test-taking Anxiety
+You’ve studied and prepared, you’ve taken multiple practice tests and now it’s the moment of truth. This is the real deal and it feels like your grad school fate is riding on how well you do! No pressure …
+Naturally some anxiety is going to surface, but there are also ways to manage it so that you can be in the best possible state of mind when you take your test.
+- Be prepared. Sure, taking the practice tests and prep courses won’t alleviate all your anxiety when the actual day arrives, but practicing will certainly help versus just going in blind and hoping for the best.
+- Eat a light meal and don’t drink alcohol the night before the test. Alcohol works as a depressant and the last thing you want to do is go to the test hungover.
+- Get a good night’s rest. This can be easier said than done if you’re worrying about a test, but there are ways to help clear your mind before going to bed.
+- Shut off the television. Watching TV before bed tends to stimulate the mind, not relax it.
+- Read a book (not a test prep book). This will take your mind off all things test related and helps to induce a state of relaxation and sleepiness.
+- Write down all the things you’re worried about on a piece of paper or in a journal and put it away. Some people call this a “brain dump,” but getting those thoughts out of your head and onto physical paper actually helps.
+- Do some deep breathing. This is a proven, effective method of relieving stress. Just a few minutes of this practice can significantly reduce stress and anxiety.
+- Change your point of view — instead of worrying about failing, visualize yourself passing the test.
+- On the day of the test, do the deep breathing exercises again that you did the night before.
+- Perspective is everything. One test won’t determine your entire future. Most tests can be taken more than once, and most schools are putting more weight into all your other worthy qualifications. Just relax and take it one question at a time.
+- Don’t tell anyone you’re taking the test, if possible. Having a bunch of people ask you about studying, giving you unsolicited advice and asking if you’ve gotten your results back every day just puts more pressure on you. And if you don’t do as well as you would’ve liked, you won’t have the added pressure of feeling like you let people down. Just move on to the next one.
+- Make sure you arrive early so you can mentally and physically prepare (keep doing those breathing exercises) and don’t feel rushed.
+- Be present. When you sit down to finally take the test, clear your mind and just focus on the task at hand. There’s no point in worrying about whether you studied enough (too late for that) and don’t get wrapped up in all the “what-ifs” of not passing. There’s no point in that either.
+- Give yourself a reward afterwards. Regardless of how you think you did, you worked hard, and you deserve a little treat — whatever lifts your spirits.
+Taking a standardized test is probably not on anyone’s bucket list, but these tests help to paint a significant part of the self-portrait of qualities you want to present to graduate admissions committees. Plus, once you employ the anxiety reducing tools outlined above, your sigh of relief when you get the score you wanted will be audible.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 13 - Document ID: <urn:uuid:2d01d7f5-9638-4440-b6ed-b208810430cb> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "7d6c65c5-ca47-44ba-8320-a15fc3fe9a4c", "doc_id": ["<urn:uuid:2d01d7f5-9638-4440-b6ed-b208810430cb>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Schools have become the lifeline of the education systems around the world. They have been more of a foundation than a mere construction, for a human’s career. Some countries such as India, which have a strong setup in the Schooling system, have implemented many schemes such as student development programs. The IT Department has also suggested equipping every school with at least one computer. Now, with that on the one hand, in certain other developed economies such as the UK and United States, the Government has indeed implemented free laptop computers for school schemes. These schemes definitely have helped the chunk of the student population to become computer friendly.
+After the advent of the technological boom, every other sector and industry has been cashing in on the latest of the breakthroughs in the field of technology. The Schools have also not been far behind. It is a debatable issue that nothing can replace a traditional teacher who imparts knowledge in schools. However, when such teachers are equipped with laptops such as the ones given in the free laptop computers for school schemes, it will definitely help the cause of delivering better lectures and also showing pictorial representations and video files to assist the student in learning concepts better.
+A few decades ago, when the Computer was a luxury and also nothing significant, schools still remained successful. This is one fact, which could probably go in favor of those who are against the whole concept of using technology to impart knowledge. Questions do arise about the efficient use of such gadgets. There are also problems such as the teacher being technologically illiterate to operate such devices. But, this again is a defeatist approach, as it promotes a stagnated growth concept and not learning new methods and innovating.
+Innovate methods of teaching have indeed been tried out in countries such as Japan, where educational robots have been tried to replace a teacher to take lectures for students. That being still a far fetched aim, is not totally advisable either, because replacing humans with automatons is not a feasible option either. It would put many out of work as well. Moreover, it is a concept which has worked since time immemorial. Hence, Schemes such as free laptop computers for school are useful in the sense that they provide an added dimension to the teacher’s teaching process, but it should be kept at that, and not be pushed for a total overhaul!
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+
+### Prompt 14 - Document ID: <urn:uuid:23e49125-2fde-42ad-a4e6-8112920df0b0> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "c18e025b-6e61-4a4f-8234-14a3edd7aa66", "doc_id": ["<urn:uuid:23e49125-2fde-42ad-a4e6-8112920df0b0>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Dengue Fever Confirmed In Palm Beach County
+Health Officials Say This Is First Locally Acquired Case Of Mosquito-Borne Illness
+The first confirmed case of dengue fever has been reported in Palm Beach County.
+Palm Beach County Health Department officials said the mosquito-borne illness was confirmed Thursday.
+In 2009, dengue fever was diagnosed in Key West. Since then, others have been found in South Florida.
+Health officials said this is the first locally acquired case in Palm Beach County, although eight others have been reported this year that were acquired out of the country.
+Dengue fever is characterized by high fever about three to 14 days after the bite of an infected mosquito. Symptoms include high fevers, severe headaches, muscle aches and rashes. Severe cases can be deadly.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 15 - Document ID: <urn:uuid:a285b317-7f02-42da-aef6-716971676514> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "b0a4d72f-4486-44b6-a28f-ea847826a967", "doc_id": ["<urn:uuid:a285b317-7f02-42da-aef6-716971676514>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+A specialist court for domestic violence and sexual assault cases would be established by a NSW Labor government, deputy opposition leader Linda Burney will announce on Sunday.
+The election commitment aims to reduce the trauma experienced by victims going to court by employing specialist judges and lawyers, designing courtrooms to ensure safety and privacy, and allowing victims to give evidence remotely.
+Labor has committed to trials in metropolitan Sydney, Wollongong and the Hunter.
+“We have a massive under-reporting rate in sexual assault, and half the conviction rate of any other area of criminality,” Karen Willis, executive officer of Rape and Domestic Violence Services Australia, said.
+Ms Willis undertook a Churchill Fellowship to study the operation of specialist domestic violence courts in Canada, South Africa, Britain and the United States. She believes this approach could increase the reporting of assaults and conviction rates in Australia.
+Delays in reporting a sexual assault in NSW are often interpreted by courts as “making up a story”.
+“We know with trauma, that victims go numb and shut down,” she said.
+Ms Willis says 70 per cent of sexual assaults are committed by a friend, family member or colleague, and a third in a social setting, such as a date. Because of this, grooming tactics used by offenders prior to an attack should also be examined in court.
+“There needs to be a rethink of how these crimes are prosecuted, what evidence is provided and what the jury considers. The best way to do this is a specialist court,” Ms Willis said.
+Ms Burney said domestic violence was a national crisis and the rate of these assaults was rising in NSW, reaching 27,000 last year – or 74 a day.
+“Labor will make reducing domestic violence a top priority in government, and this includes protecting and supporting victims and bringing perpetrators to justice as quickly as possible and in a way which minimises trauma to the victim,” she said.
+Labor’s women’s spokeswoman Sophie Cotsis said every woman and child had the right to be safe in their own home: “Many other jurisdictions around the world have different specialist domestic violence and sexual assault courts operating at the moment – we need to see this implemented in NSW.”
+In South Africa, magistrates undergo specialist training to sit on sexual assault courts where victims can give evidence by CCTV, the court is closed for cross examination and there are separate waiting rooms and entries for the accused and the victim.
+There are 200 specialist courts in the US, 100 in Britain and 50 in Canada. Labor wants an expert committee to determine the best model for a domestic violence and sexual assault court in NSW.
+Specialist courts for drug-related crime have been used in NSW for 15 years, with research showing people sentenced through these courts less likely to reoffend.
+The Hunter recorded 2700 cases of domestic violence and 1100 sexual or indecent assaults in the past year.
+The Illawarra recorded 1043 domestic violence cases and 450 sexual or indecent assaults.
+Ms Willis said that, instead of prison sentences, a “more clever” approach to preventing repeat offences would be court-mandated behaviour change programs.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 16 - Document ID: <urn:uuid:30e6b287-2d54-4f8d-8c4e-a63fb7681cc9> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "8574ad20-9951-4539-b418-1a43351af2cc", "doc_id": ["<urn:uuid:30e6b287-2d54-4f8d-8c4e-a63fb7681cc9>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+To link to this article, copy this persistent link:
+(Sep 28, 2011) On August 3, 2011, the Knesset (Israel's parliament) passed an amendment to the Tobacco Products for Smoking (Restriction on Advertising) Law, 5743-1983, as amended. The Law prohibits the advertising and sale of tobacco products to minors. It also authorizes sellers of such products to require customers to show identification for age verification. In 2001, the Knesset had passed an amendment to the Law in an effort to address the lack of enforcement of the ID verification requirement in connection with tobacco products vending machines. The 2001 amendment authorized the Minister of Health to designate places where machines that distribute tobacco products could not be placed. To date no such places have been designated.
+According to explanatory notes on the amendment bill, the objective of the 2011 amendment is to extend the 2001 prohibition to all locations, not only those that can be easily accessed by minors. According to this amendment, the sale of tobacco products via vending machines will be completely prohibited, as of January 1, 2014. Until that day, the placement of such machines will only be prohibited near schools and other educational institutions in accordance with a directive to be issued by the Minister of Health. (Tobacco Products for Smoking (Restriction on Advertising) (Amendment No. 6) Law & bill, 5771-2011 [both in Hebrew], the Knesset website (both last visited Sept. 19, 2011); Tobacco Products for Smoking (Restriction on Advertising) Law, 5743-1983, 37 LAWS OF THE STATE OF ISRAEL 39 (5743-1982/83), as amended [in Hebrew].)
+|Author:||Ruth Levush More by this author|
+|Topic:||Tobacco and smoking More on this topic|
+|Jurisdiction:||Israel More about this jurisdiction|
+Search Legal News
+Find legal news by topic, country, keyword, date, or author.
+Global Legal Monitor RSS
+Get the Global Legal Monitor delivered to your inbox. Sign up for RSS service.
+The Global Legal Monitor is an online publication from the Law Library of Congress covering legal news and developments worldwide. It is updated frequently and draws on information from the Global Legal Information Network, official national legal publications, and reliable press sources. You can find previous news by searching the GLM.
+Last updated: 09/28/2011
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 17 - Document ID: <urn:uuid:c4773d37-0de8-42ff-b9d7-87e8d183aad8> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "309067a0-86a0-42cd-ba56-c8aac5643577", "doc_id": ["<urn:uuid:c4773d37-0de8-42ff-b9d7-87e8d183aad8>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Coming Soon: Clips From Italy!
+Hi Guys, apologies for the lack of blog postsÂ recently — I’ve been otherwise engaged over in Italy.
+I Â traveled along with Videvo member Izzy in order to work on a documentary, but naturally— stock video was also pretty high on my priority list.
+Everything from me was shot on my 5D Mark III using the only lens I had with me — the trusty Canon 24-105 L, IzzyÂ had her 70D, stock lens and a Canon 50mm.
+In an ideal world I’d have gone out there with lenses for every occasion, but unfortunately after packing my fluid head video tripod into my suitcase, I was left with a pretty minimal amount of space to fit my traveling essentials. After being severely let down by my scales at home, I ended up having to move my tripod head into a reluctant Izzy’s suitcase in order to be allowed on the plane!
+During the filming of the documentary, I was given access to some pretty cool places; one of my favourites being an Electronic Waste sorting centre in Turin, where all of the E-waste in Turin is separated for recycling. This gave me a unique opportunity to get some strong niche shots, which would not be easy to simply go out and shoot on a whim. I mentioned shots like these in point 4 in my previous article.
+It’s all about themes, so once I got there I began shooting on-theme, usable shots which could be put into multiple contexts.
+As you can see, I was working pretty light — just the camera and tripod. Fortunately the lighting was pretty good which allowed for some strong shots:
+I’m expecting this one to be quite popular, it’s a conveyor belt feeding crushed E-Waste along a line of workers who are sorting through the debris in order to pick out valuable pieces (far cooler when it’s moving!)
+As well as this sorting center, I was also given access to an Ecocentre — where people take their electronic waste. This was another mine for niche stock shots, and to top it off — both locations fit nicely together. So now, anyone searching Videvo for electronic waste recycling will be greeted with more clips than they can probably use!
+There was a weekend in the middle of our trip, which gave us the opportunity to get out and explore Turin. We covered it at street level first and then got up higher in order to get some nice establishers. This was one of the points where I wished I’d brought the Videvo Canon EF 100-400 L lens with me, as the 24-105 was impossible to isolate anything with. Due to this I had to stick to wides.
+I was very glad of my variable ND filter on this trip, and I want to re-enforce the importance of taking an ND filter if you are going anywhere sunny! (For us British people, it’s easy to forget how bright the sun can be!) it let me have my aperture wide open, even out in bright daylight, which was an incredible plus!
+After the weekend, we got stuck in to film the final part of the documentary, which ended on the Friday. Luckily, Izzy and I had booked our flights home a few days after the filming had ended which let us go out a bit further and explore more stock video opportunities.
+Our next destination was the Alps. We had seen the snow-capped mountains from time to time within Turin ( the place is surrounded by them) but had not gone and taken a closer look. We’re very glad we did! Here’s Izzy at a vantage point shooting you guys some mountain stock:
+And here’s me not shooting you guys some mountain stock..
+We did a lot of walking but didn’t have the right gear to go up too high. We took some gondolas up to a ski-resort which was pretty interesting, and managed to snag a few nice stock clips of various ski-related things (It’s about themes remember?!)
+Another interesting establishment I got into while I was there was a jewelry production house, where precious metals are made into fine jewelry to be sold by big jewelry brands on the high-street. The reason I went there was to get a shot of some gold being manipulated for the video I was working on, but as I was there I decided to canvas the joint and push for as many varied shots as possible. I got my translator on board and he facilitated a nice range of jewelry production themed shots, such as this one:
+Our last stop was Barolo, a place famous for producing some of Italy’s greatest wines. Stock video is all about themes, and the theme here was definitely wine. We started off by driving around the rolling countryside in order to find a strong vantage point. This is what we found:
+We were able to quickly and easily scoop up a wide variety of on-theme shots, before moving on to a place where the wine is made and sold. We enjoyed some wine tasting, went and got some stock of the wine barrels and then moved on to find some more high altitude vantage points for scenic shots:
+After this it was time to get back on the train and head back to Turin to pack for our flight.
+We got back to the UK the next day and I went straight to Videvo HQ to get the clips off my Lacie and onto the Mac Pro. I then spent the next 6 hours going through the footage and sub clipping everything I deemed appropriate for Videvo. 144 Sequences later I was getting there..
+I’ve now got the exciting task of titling, describing and keywording each clip so I can upload them for you guys! Happy days!
+That’s all for now but thanks for reading and keep an eye on the new clips section of Videvo for the next couple of weeks, as there’s going to be some gems going up! Also, don’t forget the Videvo GoPro competition is ending soon – get involved while you can and see if you can win this awesome prize!
+Videvo.net – Free Stock Footage and Motion Graphics
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 18 - Document ID: <urn:uuid:4c51c75a-68ee-46b0-a578-1b30e0ae4b86> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "9115ce74-08a8-484b-93a4-8ebac520ab89", "doc_id": ["<urn:uuid:4c51c75a-68ee-46b0-a578-1b30e0ae4b86>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+After glancing at the kitchen clock for the third time, Coleen Kelley shouts up the stairs again for her two daughters to step up their pace. As she quickly prepares their lunches, she feels the rate at which she’s going is simply not fast enough. A stickler for promptness, she hates knowing that on this morning, after taking the kids to school, then battling rush-hour traffic, she’ll be at least 15 minutes late for an officewide meeting she’s been designated to lead. Needless to say, her day has gotten off to a less-than-perfect start.
+Unfortunately, Kelley isn’t alone. Similar scenarios take place in millions of households every morning. The challenge of simultaneously juggling family and work obligations is nothing new. Still, it continues to leave many women pondering whether it really is possible to perform the balancing act of mother and (co)provider without dropping any of the balls.
+“If you think you can, you’re dreaming,” declares Ann Douglas, author of numerous books on issues pertaining to working mothers, including The Unofficial Guide to Having a Baby (Macmillan General Reference, $15.95). A home-business owner and mother of four, Douglas maintains that working mothers may ultimately have to make big sacrifices-say, limiting themselves to a particular career path or forsaking a position that requires a lot of time away from home-to also care for their families. “You’ll just have to decide what you can live without.”
+Whether it’s to add to their household’s bottom line or to find personal fulfillment, many women can’t afford to be unemployed. The Center for Policy Alternatives in Washington, D.C., estimates that 63% of moms with kids under age six-and 78% with school-age children-work outside of the home.
+Similarly, dual-career married couples make up 45% of the work force. “Yet society hasn’t caught up with the fact that these couples are the norm, not the exception,” asserts Douglas.
+From this vantage point, it’s no wonder that achieving quality family time, for example, remains one of the greatest challenges for working couples. The school day still ends around 3 p.m., a throwback to the days when at least one person-usually Mom-was there to provide supervision when the kids came home. Likewise, children’s extracurricular activities-athletic games, school plays and music recitals-are frequently planned around the children’s schedules, says Douglas. These events tend to clash with their parents’ workday, which, on average, doesn’t end until at least 5 p.m., not including commute time. This often leaves a sizable gap between then and when kids get to reconnect with their parents or guardians.
+While it affects both parents, the gnawing guilt that results from missing these and other precious family-related moments has always been central to the working mother’s experience. That’s because the domestic domain-tending to children, caring for a spouse and other family members, and maintaining the house-is still mainly seen as a woman’s responsibility. In some cases, an unwillingness to focus less on a career in the name of family duty can result in a woman losing her happy home life altogether.
+That’s what happened
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 19 - Document ID: <urn:uuid:31c16ebc-abe8-4d56-96c6-1ffc1634b453> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "1c4a3dd5-2e59-4b8d-8a7a-7354afe9f8f5", "doc_id": ["<urn:uuid:31c16ebc-abe8-4d56-96c6-1ffc1634b453>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+No “Interest Rate Sensitive” Security is an Island…
+Just what is this “total return” thing that income portfolio managers like to talk about, and that Wall Street uses as the performance hoop that all investment managers have to jump through? Why is it mostly just smoke and mirrors?
+Here’s the formula:
+- Total Income + (or -) Change in Market Value – Expenses = Total Return — and this is supposed to be the ultimate test for any investment portfolio, income or equity.
+Applied to Fixed Income Investment Portfolios, it is useless nonsense designed to confuse and to annoy investors.
+How many of you remember John Q. Retiree? He was that guy with his chest all puffed up one year, bragging about the 12% “Total Return” on his bond portfolio while he secretly wondered why he only had about 3% in actual spending money.
+The next year he’s scratching his head wondering how he’s ever going to make ends meet with a total return that’s quickly approaching zero. Do you think he realizes that his actual spending money may be higher? What’s wrong with this thinking? How would the media compare mutual fund managers without it?
+Wall Street doesn’t much care because investor’s have been brainwashed into thinking that income investing and equity investing can be measured with the same ruler. They just can’t, and the “total return” ruler itself would be thrown out with a lot of other investment trash if it were more widely understood.
+- If you want to use a ruler that applies equally well to both classes of investment security, you have to change just one piece of the formula and give the new concept a name that focuses in on what certainly is the most important thing about income investing — the actual spending money.
+We’ll identify this new way of looking at things as part of “The Working Capital Model” and the new and improved formulae are:
+- For Fixed Income Securities: Total Cash Income + Net Realized Capital Gains – Expenses = Total Spending Money!
+- For Equity Securities: Total Cash Income + Net Realized Capital Gains – Expenses = Total Spending Money!
+Yes, they are the same! The difference is what the investor elects to do with the spending money after it has become available. So if John Q’s Investment pro had taken profits on the bonds held in year one, he could have sent out some bigger income payments and/or taken advantage of the rise in interest rates that happened in year two.
+Better for John Q, sure, but the lowered “total return” number could have gotten him fired. What we’ve done is taken those troublesome paper profits and losses out of the equation entirely. “Unrealized” is “un-relevant” in an investment portfolio that is diversified properly and comprised only of investment grade, income producing securities.
+Most of you know who Bill Gross is. He’s the fixed Income equivalent of Warren Buffett, and he just happens to manage the world’s largest “open ended” bond mutual fund. How was he investing his own money during other interest rate cycles?
+Well, according to an article by Jonathan Fuerbringer in the Money and Business Section of January 11, 2004 New York Times, he’s removed it from the Total Return Mutual Fund he manages and moved it into: Closed End Municipal Bond Funds where he could “realize” 7.0% tax free.
+(Must have read “The Brainwashing of the American Investor”.)
+He doesn’t mention the taxable variety of Closed End Fund (CEF), now yielding a point or two more than the tax free variety, but they certainly demand a presence in the income security bucket of tax-qualified portfolios (IRAs, 401k(s), etc.).
+Similarly, the article explains, Mr. Gross advises against the use of the non investment grade securities (junk bonds, for example) that many open-end bond fund managers are sneaking into their portfolios.
+But true to form, and forgive the blasphemy if you will, Mr. Gross is as “Total Return” Brainwashed as the rest of the Wall Street institutional community — totally. He is still giving lip service validity to speculations in commodity futures, foreign currencies, derivatives, and TIPS (Treasury Inflation Protected Securities).
+TIPs may be “safer”, but the yields are far too dismal. Inflation is a measure of total buying power, and the only sure way to beat it is with higher income levels, not lower ones. If TIPS rise to 5%, REITS will yield 12%, and preferred stocks 9%, etc.
+No interest rate sensitive security is an Island!
+As long as the financial community remains mesmerized with their “total return” statistical shell game, investors will be the losers.
+- Total Return goes down when yields on individual securities go up, and vice versa. This is a good thing.
+- Total Return analysis is used to engineer switching decisions between fixed income and equity investment allocations, simply on the basis of statements such as: “The total return on equities is likely to be greater than that on income securities during this period of rising interest rates.”
+You have to both understand and commit to the premise that the primary purpose of income securities is income production. You have to focus on the “Income Received” number on your monthly statement and ignore the others… especially NAV.
+If you don’t agree with the next three sentences; if they don’t make complete sense: you need to learn more about Income Investing:
+- Higher interest rates are the income investor’s best friend. They produce higher levels of spending money.
+- Lower interest rates are the income investor’s best friend. They provide the opportunity to add realized capital gains to both the total spending money and total working capital numbers.
+- Changes in the market value of investment grade income securities, Yogi says, are totally and completely irrelevant, 97% of the time.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 20 - Document ID: <urn:uuid:f34424b9-3836-4e61-9dcc-5e109d32f93a> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "7e092cf1-534a-4567-9fae-0fcb472527cc", "doc_id": ["<urn:uuid:f34424b9-3836-4e61-9dcc-5e109d32f93a>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+After studying the color wheel for a few weeks we did a color mixing excercise using oil pastels to blend analogus colors from red down the color wheel all the way to red-violet.
+Then we looked at electric guitars and talked about the different parts and shapes
+When they started their drawings I told them to make the neck of the guitar stop in the middle of the paper so their guitars would fit on the paper. Then I showed them how to make two different body shapes, but they could choose their own body shape or make up their own.
+We looked at a real electric guitar and talked about how you can only see one edge at a time from any point of veiw and how to draw the edge so it looks 3D
+Then they colored them with oil pastel and drew shapes in the background such as stars and music notes
+Second graders splatter painted their backgrounds with neon paint
+Third graders created a background by paper weaving and some of them splatter painted too if they finished early
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 21 - Document ID: <urn:uuid:af780475-9892-495e-8b9d-fa15d9fda706> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "6ee0a8f9-a9ef-444f-ba86-dda2ff0c064f", "doc_id": ["<urn:uuid:af780475-9892-495e-8b9d-fa15d9fda706>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+thanks paper craft for this challenge
+I love anything that's a bit different, and love pop up layouts and cards, at a recent show, i saw these pop up cards and thought, well, that would be different,
+so today, i made it for the challenge, after a few boo boos, like cutting the size without really thinking at first which was the flowers are going to look on the card , pasted it down, then realized the flowers and leaves were all upside down, and i went and stuck them down with that nice red sticky tape, didn't in.
+i know i have a few flaws in it, but i know my mum wont mind and wont know, if i don't say anything. she just loves anything, i hand make. her birthday is tomorrow, the same days as the Story Bridges turns 75,
+mum told me that she remembers when the bridge opened in Brisbane, my mum is 8 years older,
+anyway, better stop chatting
+my version of this months challenge of different folds on a card
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 22 - Document ID: <urn:uuid:002d6845-ddae-4202-9353-a393195780a0> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "2df99716-8aa0-4e6a-aa0d-d529c1026aa4", "doc_id": ["<urn:uuid:002d6845-ddae-4202-9353-a393195780a0>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+What is your wellness philosophy?
+For me, wellness is about feeling great—confident. Taking a few moments to unwind and let the mind wander is also essential. It fuels creativity.
+How do you stay healthy?
+I love sports, especially tennis, and have always lived a very active lifestyle. Even while traveling, I make time to work out. It keeps me feeling energized throughout the day. I also tend to eat a lot of fresh fruits and vegetables (my mom has been an organic gardener since the 1970s). But that’s not to say I always resist French fries.
+Are there any wellness must-haves?
+Music is a must—in the car on the way to work and in the office. Jessie Reyez, Van Morrison, Tupac, The Puppini Sisters… It sets the mood for the day.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+
+### Prompt 23 - Document ID: <urn:uuid:0085f7ca-2be8-4bd2-9c0d-a40bf7239322> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "304e9206-36a2-45fe-804d-3e0cb8de6d48", "doc_id": ["<urn:uuid:0085f7ca-2be8-4bd2-9c0d-a40bf7239322>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Androids and iPhones and Carrier Douchebags
+I've tried to love the iPhone.
+Really... I've tried.
+I work on Macs. I only work on Macs. I'd probably refuse to take a job that didn't allow me to work on a Mac.
+I'm not an Apple fanboy -- I just like working with tools that allow me to get the job done.
+The trouble is that I want to choose how I use these tools. If I think the best way to peel ginger is with a spoon not a vegetable peeler (which is a fact btw) then I want to be able to use a spoon -- even if the person making my tools thinks I should use a peeler.
+And this is why I hate the iPhone.
+I want the freedom to use my tools the way I want to use them - and I want to be able to customize these tools to work best for me. I honestly don't care what Apple thinks is the best (or "right") tool for the job - or how they think I should use these tools. I know what works for me.
+So I use Android phones.
+And today's experience with my phone is a perfect illustration of both how well this works for me -- and why it works so poorly.
+I got a replacement phone in the mail from TMobile (warranty replacement for a phone that their own over-the-air update had bricked on me). The phone sucked.
+As it was when I got it.
+There was an enormous amount of bloatware pre-installed on the phone (seriously, does anyone want a copy of Avatar on their phone - with custom video player?). Various standard Android applications had been replaced by inferior custom ones (the calendar that eliminates a number of critical options for creating new Google Calendar events for example). Various interface elements had been replaced but in a half-assed and unintegrated manner (resulting in UI and UX consistency issues all over the place).
+And all of this was locked. I could not uninstall or change any of it.
+Just like the fucking iPhone. Right?
+Well.... no. Not really.
+With almost no effort at all I preceded to root my phone (enable superuser access to the phone). This then allowed me to install an app to manage files etc on my phone - including system ones. I used this to delete all the bloatware. I installed a ROM (package) manager application and replaced a bunch of the crap carrier / OEM replacements with the stock Android versions (calendar, wifi tethering, launcher, etc). I deleted all the horrible widgets and replaced them. I changed all the various interface elements and styles to what I wanted (yeah... including changing the system font to Frutiger - so sue me, I like the font).
+And now I have a phone that works the way I want it to work.
+Not the way the carrier wants me to use it.
+Not the way the OEM thinks I should use it.
+The way I want to use it.
+But here is the problem.
+I've now violated my warranty.
+I can't accept OTA updates without waiting to see what happens to other guinea pigs.
+I'm on my own for support.
+And that's bullshit.
+I'm not blaming Android (or Google). Yeah... I'm still pissed about the Nexus One, the wireless spectrum auction, and Google blowing it on their chance to castrate the carriers for once and for all. But really... they're offering freedom -- and freedom is not just for me, but for douchebags like cellular carriers.
+And that's who I'm blaming this on.
+So cellular carrier douchebags. If any of you are reading this, listen up.
+We hate you.
+No... let me rephrase that...
+We all fucking hate you.
+We hate you because you suck. We hate you because you refuse to give us what we want and what we need and instead give us what is going to make you the most money -- and then overcharge us for using the devices we don't want. We hate you for your over-promising and under-delivering. We hate you for your lying. We hate everything about you.
+And one of these days someone is going to come along and break your back the way that Google could have done.
+And we're going to throw a party to celebrate.
+You've been warned. Tweet
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 24 - Document ID: <urn:uuid:fdd75942-61cf-4d18-a6c2-fdce69916590> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "35d873b1-8ad1-43fb-9762-58970e70986b", "doc_id": ["<urn:uuid:fdd75942-61cf-4d18-a6c2-fdce69916590>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+Beyond Las Vegas sportsbooks and fantasy football leagues, Fantex Inc. is offering a new way to bet on professional athletes -- starting with the National Football League’s Arian Foster.
+The company filed to raise $10.6 million in an initial public offering priced at $10 a share, according to a regulatory filing today. Fantex’s main source of income is Foster, a running back for the Houston Texans who has pledged 20 percent of the money he earns both inside and outside the NFL to the company in exchange for most of the proceeds of the IPO.
+San Francisco-based Fantex, led by Chief Executive Officer Cornell “Buck” French, plans to make similar agreements with other professional athletes. Foster, 27, is in the second year of a five-year contract with the Texans, where he’s eligible to receive a salary of as much as $23.5 million through the 2016 season, the filing shows.
+Foster currently has endorsement contracts with companies such as Under Armour Inc. (UA:US) and Kroger Co. The Pro Bowl running back also recently acquired an undisclosed stake in Health Warrior Inc., the closely held nutrition company known for its chia bars.
+In his fifth NFL season, Foster has 531 yards on 117 carries, with another 183 yards on 22 catches, and has scored two touchdowns. Foster has rushed for a career total of 5,052 yards for the Texans, who are 2-4 this season.
+Fantex Brokerage Services LLC is managing the offering along with Stifel Financial Corp. No investor will be allowed to purchase or hold more than 1 percent of any series of common stock issued by the company, the filing shows. Orders for the stock will be posted and executed by Fantex’s brokerage’s alternative trading system, and the shares won’t be listed on the New York Stock Exchange nor the Nasdaq Stock Market.
+To contact the reporter on this story: Leslie Picker in New York at email@example.com
+To contact the editor responsible for this story: Jeffrey McCracken at firstname.lastname@example.org
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 25 - Document ID: <urn:uuid:41218328-f591-4a2a-a676-9d700a86d03d> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "9127a1cb-3e85-43b1-be9d-981ed10ba606", "doc_id": ["<urn:uuid:41218328-f591-4a2a-a676-9d700a86d03d>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+Brazil now rivals the United States in food production. Environmentalists in Brazil complain that this surge in production has come at the expense of forests, including the Amazon. But they're facing one tough farming advocate: a senator, landowner and head of the country's most powerful Big Agro association. (This piece initially aired Jan. 7, 2013 on Morning Edition.)
+Support the news
+More NPR or Explore Audio.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+
+### Prompt 26 - Document ID: <urn:uuid:ea83dfcc-c4a7-4e92-a10d-9e9a48684958> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "50488f20-f656-41a0-ae0a-b084535d2881", "doc_id": ["<urn:uuid:ea83dfcc-c4a7-4e92-a10d-9e9a48684958>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+DICE has announced that PlayStation 3 and Xbox 360 Battlefield 3 players will soon have access to the same customisable server options as their PC counterparts.
+Speaking at GDC, as reported by Joystiq, DICE CEO Karl-Magnus Troedsson confirmed customisable servers are on the way.
+“All active players out there playing on consoles today will now have the opportunity to customize their servers and set them up exactly how they want them to play,” he said.
+“Now this is a feature that in Battlefield on PC we’ve had for some time, but it’s an absolute first on console. So, we’re pretty excited about this.”
+DICE also unveiled three new expansions for the popular multiplatform shooter.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+
+### Prompt 27 - Document ID: <urn:uuid:97a78a8a-38e3-4e8d-bf1a-81e0611b7a9f> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "aa86e10d-fd8f-4d65-ba6b-9914d49ec7c2", "doc_id": ["<urn:uuid:97a78a8a-38e3-4e8d-bf1a-81e0611b7a9f>"], "question_type": ["factoid", ...], "user_type": "expert"}'
+
+### The generated questions should be about facts from the following document:
+The flight wasn’t too bad only 10 or eleven hours and I was on my adventures again, with 29 colleagues, all top performers, and the destination was Mexico.The Banyan Tree at Mayakoba on the Maya Riviera is a luxury hotel, everyone gets a villa with private pool, lots of outside seating to chill and listen to the birds talking to each other, it was paradise. Each villa gets a bicycle for each occupant, or alternatively pick up the phone and an eco friendly buggy will come and pick you up!A welcome dinner had been prepared for us, interesting were the bread rolls filled with a cream cheese, unusual but tasty. The fish was very fresh and cooked perfectly, it looked like Stone Bass but whatever it was, it was damn good,
+These trips are full on, the itinerary is jam packed and on this one, I had added a couple of extra’s, a cookery course that I have already posted about, and a trip to the ancient site at Tulum, an important historical port which was on my bucket list, and now ticked off.
+Breakfast at the Banyan Tree was nuts but in a positive way as the choice was endless. I opted to go local and was glad I did, a cookery station prepared various options each morning, if you wanted Sausage, Bacon and Eggs that was available on the buffet station. The fruit was delicious, fresh, nicely prepared and extremely tasty with lots of variety. Unusual, but very good was the Bacon Wrapped…………Banana with the Eggs. Nice!The first activity was ATV’s (All Terrain Vehicles), followed by some history on the Mayan Civilisation and a dip in a Cenote. The morning flew by and it as soon time for lunch, hurray.
+Lunch was at La Fondita, part of the Mayakoba complex where we were staying and was to be a real treat. We were presented with numerous ‘Tostadas’ laden with delicious toppings such as Ceviche Mixto (Mixed Seafood, Tomato, Onion, Avocado, and Black Habanero Salsa) and Atún con Chicharrón (Tuna, Habanero, Avocado, Lime, Red Onion, Crispy Pork Rinds) which was particularly good and I managed more than one! There were Meat, Chicken and Vegetarian options and they were all FAB.
+A ‘nice swim at my villa’ was just what was needed after the mornings activity as I had not dipped completely in the Cenote, but just dangled my feet. Those little fish that nibble your toes in the various resorts around the Med were a natural phenomena in the pool of water so I got my feet tickled by their nibbling instead! The evenings activity was to be a ‘meal in a cave’ and ‘Chaak’ the Water God was one of the statues that were to great us as we walked up to our evening venue, Rio Secreto.I have never eaten in a cave before, we were 50 metres below the surface in a beautiful cavern, and entertained by a Mayan ritual dance which was extremely energetic, as we were served a combination of Mexican and International Cuisine.
+The main course was fine but for me the standout dishes were the starter, a Tamale, filled with Cream Cheese and served with a mild Pepper Sauce and the take on a Cheesecake which was delightful, a crisp shell with a sweet cheese filling, very tasty and a beautiful light finish. Time for bed, #Stuffed.The following day was free time, I had booked on a cookery course, it was awesome, see the previous post for details as I learned the proper techniques to prepare Mexican cuisine and was taught by the lovely Karla, who really knew her beans 🙂 After a welcome rest we were off to Cancun to Rosa Negra, a ‘hip’ goto restaurant with a reputation for food and entertainment.
+They must have been having a very off night, there are loads of reviews saying this is the best restaurant in Cancun, oh dear! The beetroot starter was MASSIVE, way too big, ugly in fact. It was completely un-balanced and from what I saw, most plates where sent back with at least 1/2 the food uneaten. The concept was fine, but reduce the Beetroot by 2/3’s and increase the Goats Cheese Mouse by 400% and you would have a fantastic dish. The fish was style over substance, apparently there was Hoisin Sauce but the Salty Soy was so strong you could not taste it. The Carrot Cake was sweet, sweet, too sweet, much too sweet! Sorry this was my worst meal of the whole trip which was a shame as a little attention to detail and it could have been amazing, I guess the head chef had a night off!
+The following morning was our last before moving on to Tulum, breakfast was a delicious Blue Corn Quesadilla stuffed with Courgette Flowers and Oaxaca cheese, yumm. After a few hours on a 44 Foot luxury Catamaran and a light lunch we were ready for dinner again! This time it was ‘CATCH’ in Playa del Carmen.
+Catch was amazing, the food was amazing, the views over the town were also very good, fireworks kicking off as we ate course after course after course! Standout dishes were the ‘Hellfire Rolls’ (spicy Tuna Two ways, Green Apple and Balsamic), ‘Catch Ceviche’ (Crab, Caribbean Lobster, Shrimp, Scallop, Mango and Orange Ponzu), ‘Wagyu Short Rib Taco’s (Huitlacoche Aioli, Guacamole, Mango & Serrano Relish), in fact, it was all bloody delicious! Next Stop Tulum.
+What can I say about Tulum………traffic jams, slow traffic, building, Taboo Beach Club, Casa Malca and some historic ruins (about 30 of them just down from Mayakoba) 🙂 Its a hip place and our stop before reaching our hotel was the beach club. It was slow, lazy, relaxing and just the thing after a few busy days. Lunch was fantastic, probably the best Seabass (Branzino) I have ever eaten, it was beautiful. The Ceviche starter was delish as was the Ricotta Orange Cheesecake.
+We all relaxed for a few hours, taking in the atmosphere, the DJ was amazing and the Saxophone player, walking around and amongst the guests was extremely good, it was a really delightful afternoon and it was soon time to book into our hotel, Pablo Escobars’ old hideaway, now a boutique hotel Casa Malca, about 20 mins away
+Almost done, phew, I’m nearly full up. Casa Malca has a style of its own, eclectic, eccentric and hip. Previously Pablo Escobars hideaway it’s now a boutique hotel owned by an America art dealer which makes for some interesting items spread around the property. This was our last location before flying back to the UK.
+Evening dinner was very pleasant, the restaurant has a new chef and the food was exemplary if not that Mexican. After getting up early to go to the ruins and feeling somewhat hungry (I have no idea why, after the previous few days), breakfast called and a interesting cup of tea (which was very nice) and a freshly cooked Omelette, which was the tastiest I have ever eaten and beautifully presented. This was not quite the finale to this epic adventure. We had one last stop for lunch at Mina, another Beach Club, Burritos and Pizza which were nicely cooked, the kitchen very open plan.
+…………………………..Until next time…………….L8ers……………………
+I should quickly mention that on our return journey we spent a few hours at a school for disadvantaged children, donating a load of food for breakfast, for some the only meal they get each day. We also played and watched them smile with beams of happiness, that we would spend time with them, it was a wonderful end to the trip.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a specialized user with deep understanding of the corpus (user_type: expert).
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 28 - Document ID: <urn:uuid:b85e62b0-5b11-4ab2-83dd-c2a6cb6d0a6c> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "5cf81005-6ff8-4398-86f7-8cb9bce1bf76", "doc_id": ["<urn:uuid:b85e62b0-5b11-4ab2-83dd-c2a6cb6d0a6c>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+We’ve been a bit quiet on the blog front since the New Year, mainly because we’ve been so fabulously busy! Most people assume, understandably, that landscaping is a seasonal undertaking and that winter is our quiet time. Of course, there’s not an awful lot that can be done during extreme weather like last year’s Beast from the East, but with some careful planning and a bit of juggling, there are ALWAYS jobs that can be tackled despite rain, a bit of snow, or low temperatures. On top of the landscaping work there’s all the design work going on in the office and also planning for the 2019 flower show season, which for us starts with RHS Chelsea in May.
+We hope to tell you more about some recently completed and upcoming projects very soon but in the meantime we wanted to revisit a lovely garden we designed and built in East Sussex a few years ago.
+This garden is a great example of a fairly low maintenance domestic garden in a suburban area. The original garden was a very square and boring space and the brief was very much focused on making sure we changed the regular nature of it into something that was curvy, had lots of interest and some focal points in it.
+It was a very flat site so there were no particular difficulties in building it but the design included interlocking circles of different sizes and so it was important to make sure that the measurements were accurate and corresponded correctly i.e. if a path was 3m in diameter then the terrace was 6m in diameter etc.
+The main features of the design include a dining terrace at the back of the house which was constructed using natural sandstone paving slabs. A curved path, using the same natural sandstone but in a smaller sett paving, surrounds the circular lawn and leads to the circular softwood decking and pergola, which includes decking lights and screw eyes for a hammock to be hung from the uprights. Next to the decking is a small paved area designated for the barbecue.
+We also created another little journey down a curvy pebble path, past a lovely pond/wildlife area, which the client wanted to encourage wildlife into the garden as a point of interest for the children. At the end of the path is a small utility area with a shed.
+The client was a New Zealander so we planted tree ferns and New Zealand flax to remind him of his native country. We created interest by using lots of different shapes, textures and materials: different sized paving slabs and setts, pebble paths and borders, timber decking and raised beds, and different heights and textures in the planting scheme.
+There is certainly nothing ‘regular’ about this garden and it is still one of our favourites!
+Earlier in the month we gave you a run down of all the happenings of 2018. And since then (I’m sure you’ve heard) we won the BALI Special Award for Design & Build for our work at Uplands Cottage. What a way to end the year!
+So, with that under our belt, we’re now eagerly looking forward to 2019 and all the things that the year ahead has in store for Sandstone.
+We are due to complete works at The Spa Hotel in Tunbridge Wells in the next few weeks – we’re really pleased with progress and the handmade Chilstone temple will be going in any day now. Keep an eye on our Twitter feed for more updates.
+Planning is in full swing for RHS Chelsea Flower Show 2019. Double 5 star winners Chilstone have booked us to design and build their tradestand again and we’re all hoping to achieve a 5 star hat trick!
+After having narrowly missed out on a 5 star award last year, Chesneys, the UK’s leading supplier of luxury fireplaces and stoves, are going for it again and this time we are doubling the size of the stand!
+In terms of residential projects, we have 5 landscaping projects booked in already and 4 additional designs that Ali is working on right now so it’s looking like a great start to the New Year.
+Let’s just hope the weather behaves a little better than last year!
+If you have been thinking about revamping your garden for a while, why not make a resolution to do it in 2019? If you have a design in mind or no idea at all, give us a call on 01892 668404 or email firstname.lastname@example.org
+Off we went on Friday to Grosvenor House on Park Lane for the eagerly anticipated 2018 BALI National Landscape Awards.
+Of course we were looking forward to collecting and celebrating our award for Domestic Garden Construction – Under 30k for our work at Uplands Cottage, plus a delicious three course meal, one or two drinks to toast ours and the other winners’ success, and to meet other professionals from the £11.6 billion landscaping industry.
+BBC Breakfast presenter Dan Walker was the humorous host who led proceedings, along with the sponsors of each award. There were 29 main categories, all of which had multiple winners including a Principal Winner for that category. Then there were 4 Special Awards, each with just one winner. 70 fabulous winners in total!
+Imagine our shock and delight when the award sponsor, British Sugar TOPSOIL, announced Sandstone Design as the winner of the Special Award for Design and Build, also for Uplands Cottage! It all went a bit slow mo for us at that point! Particularly for Sandstone owner and designer Ali and landscape manager Jason who both worked on the Uplands Cottage project and went on stage to accept the award.
+We were told that the BALI judging panel felt that the scheme, above all others who had designed and built their schemes, stood out and deserved recognition. The judges commented:
+“This is a beautifully executed scheme that reflects the contractor’s determination to understand and implement fully the clients’ vision. Working closely with the clients and taking a very flexible approach, the contractor has created a beautiful space on a modest budget to exacting standards. The attention to detail and the quality of the workmanship is faultless. This project fully illustrates the qualities required of a design and build contractor and Sandstone Design Solutions is a worthy recipient of this Special Award.”
+A full list of the categories and winners can be found here.
+We’d like to say an enormous thank you to BALI and the judges for both our awards and for all their hard work and commitment to the landscaping industry. Also to all the award sponsors, particularly our award sponsors, British Sugar TOPSOIL and Derbyshire Aggregates. And to all the other winners – well done and congratulations!
+Have a look at the winning garden, Uplands Cottage, here.
+It’s not an overstatement to say that 2018 has been a truly fantastic year for Sandstone, despite the challenges presented by the extreme cold in February/March and then the extreme heat of the summer.
+We kicked off the year by obtaining a small business grant from South East Business Boost. This enabled us to purchase a mean, green Avant telehandler machine! Adding the multi-talented Avant to our arsenal has noticeably increased our landscaping productivity.
+We’ve worked on projects for 25 different clients including designing and building a feature kitchen garden for the RHS and celebrity chef Raymond Blanc’s Le Manoir for Hampton Court Palace Flower Show. The Grow Your Own with the Raymond Blanc Gardening School feature was a huge success and drew visitors and compliments in abundance.
+We were also at Chelsea Flower Show again this year. And what a fantastic week it was with all three of our clients’ trade stands winning awards. We were ecstatic to hear that the gorgeous Chilstone stand had won 5 stars for the second year running! (Can we achieve three years in 2019? We’ll certainly try!) New client Chesneys won a fabulous 4 stars for their stand, which stylishly showcased their HEAT range – we look forward to hopefully topping that in 2019! The Elizabeth Bradley stand won a very respectable 3 stars for its simple design. As always, the show itself was a sight to behold, with the wild, the worthy and the whimsical all in close proximity.
+Later in the year, Ali enjoyed taking part in a discussion about ‘Designing with Maintenance in Mind’ as one of a panel of industry professionals organized by BALI South Thames and Provender Nurseries.
+Possibly the best end to the year that we could have is attending the 2018 BALI National Landscape Awards this Friday to accept our award in the category Domestic Garden Construction under £30k. We won our first BALI award in 2011 and are totally thrilled to be able to add another to the company’s name!
+That’s our round up of 2018. Next week we’ll let you in on what’s in store (so far) for Sandstone in 2019!
+Last week saw the start of a very exciting and very local landscaping project at The Spa Hotel in Tunbridge Wells.
+The elegant hotel currently boasts some of the prettiest gardens locally and has recently started really utilising the outdoor space at the hotel. Visitors and residents alike have enjoyed summer garden parties and cinema nights under the stars, as well as holding a very popular local and live music festival. The hotel also has a licensed gazebo which has been used for outdoor wedding ceremonies…until now.
+Sandstone owner and designer Ali Dempster has redesigned the hotel’s rear garden to take full advantage of the beautiful natural surroundings and to complement Chilstone’s Ionic Temple, which has been commissioned by the Spa Hotel predominantly as an outdoor wedding venue.
+The hand crafted temple will replace the existing gazebo (which will be relocated onsite) and will have just three rows of balustrade at the rear of the building, enabling guests to enjoy a fuller view of a wedding ceremony. A nine inch ball atop the lead effect fibreglass domed roof will complete this amorous garden building which is not only practical but picturesque as well. The temple complies with all the necessary legislation surrounding a civil wedding ceremony and can also be used for other events including jazz evenings, string quartets and alfresco dining, not to mention photo opportunities. The building can be decorated with garlands of flowers and drapes to compliment the theme of an event.
+Our brilliant landscaping team will create a multi-tier amphitheatre style area finished with box hedging and soft lighting. These tiers, rather than one large expanse, will create an intimate feel regardless if the number of guests is 50 or 250. The focal point of the garden will be the wedding temple, supplied by Chilstone of Langton Green who are renowned for their stonework. The temple will have a backdrop of the rest of the gardens and a view across the golf course.
+In summer, the green foliage of the formal clipped hedges and lawns and some white flowering shrubs will provide a blank canvas to be tailored to each couple’s theme. In spring, the blossom from cherry trees, predominantly white or pink, will be in flower. Standard trees can be decorated with ribbons and a number of Chilstone urns will be available to be filled with flowers for maximum impact. Our friends at Hever based How Green Nursery will be supplying all the plants, trees and hedging for the project.
+The project is due to be completed by Christmas and so far the team have made excellent progress. This week the hedges have begun to be lifted and replanted to start to form the shape of the new wedding area, and the path to the old gazebo has been lifted and the gazebo moved to it’s new site in the garden.
+Let’s hope the weather behaves as favourably as can be expected at this time of year!
+Around this time last month we got the wonderful news that we have won a second BALI National Landscape Award, this time in the category Domestic Garden Construction under £30k. We first won a BALI award in 2011 for this Tunbridge Wells garden.
+This year it was for the design and landscaping of the garden of a 400 year old semi-detached cottage in Wadhurst, East Sussex, which had proven to be rather a conundrum for the clients who wanted to maximise their living space.
+The clients’ brief was to open up the side of their small, north facing garden to light and make the best of the parts that get the sun. It was important for the clients to have a bespoke seating area that would genuinely become an extension of the house, surrounded by planting that would give the desired relaxing Mediterranean feel throughout.
+Considerable access difficulties were overcome allowing the removal of the existing paving, walls and raised beds of soil opening up the side of the site. Being sympathetic to the age of the grade 2 listed cottage in a conservation area, it was extremely important to Ali to use the recycled paving and existing sandstone in a way that tied together the old and new when creating the bespoke seating area. Each of the old and new paving slabs (new slabs from Strata Stones supplied by Corker) were individually cut to achieve random thicknesses and stacked in a way that resembles dry stone walling, although they were all cemented in place. To ensure continuity the existing walls were rendered and then painted using a colour to match the stone walling. It was a real labour of love that produced a most practical and usable space for dining and entertaining.
+The paved area, supplied by Marshalls, laid at the top of the garden gets the last of the sun and has provided the clients with a perfect barbecue area.
+The courtyard garden was enhanced with lighting in the walls and paving and up-lighting of the feature plants and within the borders. This links to a remote control lighting system which means that individual areas can be subtly lit to create different moods within the garden. The lighting was supplied by Lighting For Gardens.
+Feature plants were carefully chosen to provide structure. The planting is anchored by a large specimen old gnarly Olive tree and clipped Box hedging and backed by an espalier screen of Hornbeam trees. The fence is screened with wire trained Star Jasmine. Perennial planting and grasses create changing colour and heights to the garden throughout the summer months. All plants and trees were supplied by Provender Nurseries. The client is a keen plantswoman who now enjoys developing and changing the perennial planting scheme to keep it fresh and exciting.
+Ali’s careful consultation, interpretation of the clients’ wishes and subsequent engagement with the client throughout the design and build process allowed the creation of a haven that can be used all year round and at all times of day.
+After completion our client commented, “I looked for 3 years trying to find someone who would help me realise my dreams for our garden – the ideas were in my head (and on Pinterest) but needed Ali’s experience and creativity to bring them to reality. Ali and his expert team worked tirelessly to create a beautiful garden space that included bespoke recycled stone walling, relaxing seating and wooden screen, barbecue area and wonderful lighting for nighttime impact. We were proud to open the garden as part of the Wadhurst Open Gardens scheme last summer.”
+Huge thanks to all our fantastic suppliers. We can’t wait to get our glad rags on for the awards ceremony in London. Roll on December!
+It’s been another busy year for Sandstone, for the company as a whole and particularly for owner and designer Ali Dempster.
+We have constructed feature gardens for the Royal Horticultural Society for the last few years including last year’s RHS Kitchen Garden at Hampton Court Palace Flower Show designed by Juliet Sargeant. And we’ve clearly earned a great reputation in doing so, as this year Ali was approached by the RHS to not only build a feature garden for the Hampton Court show but to design it as well. He agreed, of course, and plans were set into motion to create an inspirational and accessible kitchen garden which would encourage people of all ages, abilities, budgets and garden sizes to start growing their own food. The planting design was led by plantswoman Rossana Porta, whom Ali has worked with before.
+The RHS Grow Your Own with The Raymond Blanc Gardening School had a genuine emphasis on sustainability and there were many examples of upcycling and recycling on display. Old air conditioning ducting had been turned into sculptural-like containers, used car tyres were stacked to make planters and breezeblocks were arranged into a fantastic Tetris-style raised planting area. The garden also featured composting containers made from old pallets, a rainwater recycling system, a wine barrel pond and two beehives, one of which was created in the style of a traditional Provence house – a nod to Raymond Blanc’s Belmond Le Manoir Aux Quat’Saisons’ upcoming Bee Village.
+Raymond held an engaging demonstration from the garden building on press day during which he rustled up a dressed tomato salad, gave spectators a taste of his delicious tomato essence and talked about the importance of using local, seasonal ingredients.
+The garden received many visitors, including actors Alistair Petrie & Lucy Scott, comedian Bill Bailey and Call the Midwife actress Judy Parfitt.
+Sandstone also built the BBC Countryfile 30th Anniversary garden designed by Ann-Marie Powell; a tiered landscape representing different areas of the British Isles.
+Neither of the gardens were judged as they were RHS sponsored feature gardens, but they both received the highest praise.
+In amongst the months of planning for Hampton Court and the company’s private client projects, Sandstone were also busy preparing and executing plans for RHS Chelsea Flower Show, which took place in May. As we mentioned in our last post, we won an award for each of the three trade stands designed and built: five stars for the Chilstone stand for the second year running, four stars for new client Chesneys and three stars for Elizabeth Bradley.
+We have private landscaping projects in Sussex & Kent keeping us busy over the next few months and the team are all very happy to be working a bit closer to home during the summer holidays!
+If your garden is not meeting your expectations and you have no idea what to do about it, get in touch on 01892 668404 or email@example.com.
+[All photos by Emily Brown Photography]
+Well that’s another RHS Chelsea Flower Show done. A pretty fantastic one at that! Three tradestands built and dismantled. Three awards won. That’s right, three! We won a FIVE star award (the highest award possible for a tradestand) for the gorgeous Chilstone stand. It’s the second year we’ve designed and built for cast stone makers Chilstone and the second year we’ve won the highest award! The features of the stand included the popular Kew fountain as the centerpiece; three statues designed and created by resident sculptor Admir Sljvic: The Birth of Helen, Leda & the Swan (2017 product of the year runner up) and Aquila the eagle; Kensington planters specially engraved to mark the marriage of the Duke & Duchess of Sussex; and some really elegant architectural stonework.
+A great big thank you to Chilstone for giving us the opportunity again. It’s clearly a match made in heaven! We must also say thank you to Addagrip for providing the resin bonded paths, Mumford & Wood for the striking purple door and How Green Nursery for the seriously lovely plants, provided in spite of the terrible weather earlier in the year.
+We were also extremely proud to have won a FOUR star award for the sleek and stylish Chesneys stand. Chesneys are the UK’s leading supplier of luxury fireplaces and stoves and were showcasing their recently released HEAT collection: a range of woodburning outdoor heater/barbecue hybrids. We saw these in action during show week and it is astounding how little smoke they give off, particularly when compared with more traditional barbecues and patio heaters. And you don’t have to be James Martin to cook a magnificent burger on one of these (but it helps a little)!
+Thanks to Round Wood of Mayfield for supplying the Clayfibre Chelsea Boxes and the Thermo-Treated Ash Decking and again to How Green Nursery for the plants.
+Chesneys were also awarded second place for the Heat 500 for RHS Garden Product of the Year 2018, just pipped at the post by Mr Fothergill’s seeds. Well done to both!
+We also won a 3 star award for the Elizabeth Bradley tradestand. Elizabeth Bradley design and manufacture quality tapestry kits. As you can see, a much simpler stand, but lovely and very fitting to the brand.
+Although Chelsea 2018 is over, the drawing board is already out for next year – it is never far from our minds. No rest for the wicked!
+And on that note, the Sandstone landscaping team arrived at the Hampton Court Palace Flower Show site earlier this week to start building for the show which opens on 2nd July. This year is HUGE for Ali and Sandstone. We have the pleasure of building BBC Countryfile’s 30th Anniversary garden, designed by the wonderful Ann-Marie Powell. The garden is inspired by the British landscape and different parts of the garden will represent different parts of the British Isles. It’s going to be a fun build!
+But even more exciting than that (and what could possibly be more exciting than building the Countryfile garden?!), Ali has been commissioned by the RHS to design a fabulous feature garden called the RHS Grow Your Own with the Raymond Blanc Gardening School! That’s right, the legend that is Raymond Blanc has been working with Ali to come up with ideas for the inspirational kitchen garden. The garden will be packed full of ideas to encourage everyone to have a go at growing their own fruit and vegetables in a way that is accessible to everyone, no matter the size of your garden or your purse! Genuine upcycling and recycling will feature heavily in the garden and elements from Raymond Blanc’s garden at Belmond Le Manoir aux Quat’Saisons will be dotted around, including a very special beehive, so keep an eye out for those. Chefs from Le Manoir Cookery School will be holding demonstrations in the outdoor kitchen and classroom during the show.
+Not only is Ali designing the garden, Sandstone are building it! Among others, we’ll be working with our suppliers Addagrip, True Grip, Marshalls, Green Roofs Direct and Provender Nurseries to get everything in place for Press Day on 3rd July. So that’s two big show gardens to build in 2 and a half weeks! Did somebody say ‘holiday’?!
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 29 - Document ID: <urn:uuid:444e3b17-fd5e-4047-9f23-d7ac4f959eb9> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "d41a5654-3418-4a87-8ff0-8f73f5d83844", "doc_id": ["<urn:uuid:444e3b17-fd5e-4047-9f23-d7ac4f959eb9>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+Do you like horses? Do you want to make a difference? Are you interested in biomechanics or are you a pre-OT, PT, or kinesiology student? Renaissance Healing and Learning Center provides physical therapy on horseback to individuals with neurological, emotional, and physical conditions. We work with individuals with Autism, back pain, Down syndrome, cerebral palsy, multiple sclerosis, or who have had a stroke or injuries from a car accident, among others. If you are interested in being a part of a wonderful team and helping others, please come volunteer!
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+- They must be A question starting with a very short premise, where the user reveals their needs or some information about themself (question_type: with-premise).
+
+### Prompt 30 - Document ID: <urn:uuid:23c587d0-da5b-4a5a-9807-1454db7a9f9f> ###
+You are a user simulator that should generate 3 candidate questions for starting a conversation.
+
+The 3 questions must be about facts discussed in the documents you will now receive. When generating the questions, assume that the real users you must simulate, as well as the readers of the questions, do not have access to these documents. Therefore, never refer to the author of the documents or the documents themselves. Include specific details such as dates or contexts to ensure clarity and avoid ambiguity in the questions. Also, assume that whoever reads the questions will read each question independently. The 3 questions must be diverse and different from each other. Return only the questions without any preamble. 
+
+Write each pair in a new line, in the following JSON format: '{"question": <question>, "answer": <answer>, "qa_id": "28ca1d36-410f-48cf-b120-a9ab0364df12", "doc_id": ["<urn:uuid:23c587d0-da5b-4a5a-9807-1454db7a9f9f>"], "question_type": ["factoid", ...], "user_type": "novice"}'
+
+### The generated questions should be about facts from the following document:
+MENASHA, Wis. (AP) - Police say a bicyclist who weaved past the gates blocking access to a bridge over a river in eastern Wisconsin escaped serious injury after falling into the gap that was created when the bridge started to rise.
+Wisconsin Department of Transportation surveillance video shot July Fourth shows the woman ignoring the barrier and red flashing lights at the bridge in Menasha, and apparently not noticing that it was already cranking into action.
+The woman and her bike then drop into the gap and she disappears.
+In the following minutes, onlookers rush to her aid and the bridge operator stalls the bridge until the woman and her bicycle are extracted.
+Police say the 37-year-old woman was taken to a hospital in Neenah where she was treated for facial injuries.
+
+### Each of the generated questions must reflect a user with the following characteristics:
+- They must be a regular user with no understanding of specialized terms (user_type: novice).
+
+### Each of the generated questions must have the following characteristics:
+- They must be A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number (question_type: factoid).
+- They must be Question that does not contain any premise or any information about the user (question_type: direct).
+

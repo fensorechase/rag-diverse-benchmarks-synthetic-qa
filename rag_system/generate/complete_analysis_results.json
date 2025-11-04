@@ -1,0 +1,733 @@
+{
+  "rq1": {
+    "question_complexity": {
+      "coarse": {
+        "retrieval": {
+          "map": 0.518299251632585,
+          "ndcg@10": 0.5605858988334068,
+          "recall@10": 0.6936936936936937,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.31484242748392505,
+          "bleu": 0.02708529030884983,
+          "cosine_sim": 0.7119571608645064,
+          "cosine_sim_std": 0.1429326382415202,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.0072922697158459004,
+        "category_means": [
+          0.7053875485078884,
+          0.7199720879395802
+        ],
+        "n_categories": 2
+      },
+      "medium": {
+        "retrieval": {
+          "map": 0.5642273225606559,
+          "ndcg@10": 0.6050914927501544,
+          "recall@10": 0.7327327327327328,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.3247571020028928,
+          "bleu": 0.031223087608324512,
+          "cosine_sim": 0.7092189318850055,
+          "cosine_sim_std": 0.14303896669150123,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.035314790401004915,
+        "category_means": [
+          0.7370839439905607,
+          0.6506652733420625,
+          0.7366858738310197,
+          0.7147354020791895
+        ],
+        "n_categories": 4
+      },
+      "fine": {
+        "retrieval": {
+          "map": 0.5615853441526087,
+          "ndcg@10": 0.6010072298964965,
+          "recall@10": 0.7242152466367713,
+          "n_samples": 446
+        },
+        "generation": {
+          "rouge1": 0.3228015058047841,
+          "bleu": 0.029328058244193985,
+          "cosine_sim": 0.7078023169360921,
+          "cosine_sim_std": 0.15356831875635255,
+          "refusal_rate": 0.0,
+          "n_samples": 446
+        },
+        "discriminative_power": 0.05317910087589391,
+        "category_means": [
+          0.7549233310461297,
+          0.6185981083999981,
+          0.7528102819736188,
+          0.6823549218799757,
+          0.7045732216507781,
+          0.7431292664901964,
+          0.7661726170778275,
+          0.6363242501693387
+        ],
+        "n_categories": 8
+      }
+    },
+    "question_answertype": {
+      "coarse": {
+        "retrieval": {
+          "map": 0.49092306592306595,
+          "ndcg@10": 0.5361378165522026,
+          "recall@10": 0.6786786786786787,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.3086107641224442,
+          "bleu": 0.02106256150812535,
+          "cosine_sim": 0.6921098116147626,
+          "cosine_sim_std": 0.16106875258585893,
+          "refusal_rate": 0.3003003003003003,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.02385656782123563,
+        "category_means": [
+          0.7161813034704237,
+          0.6684681678279525
+        ],
+        "n_categories": 2
+      },
+      "medium": {
+        "retrieval": {
+          "map": 0.5141832308498975,
+          "ndcg@10": 0.5511069822517514,
+          "recall@10": 0.6666666666666666,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.31717867242144865,
+          "bleu": 0.023933717482587956,
+          "cosine_sim": 0.6988463926047936,
+          "cosine_sim_std": 0.1610852229612124,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.043897315764499664,
+        "category_means": [
+          0.7045394399551204,
+          0.6221760794520378,
+          0.7284567092961454,
+          0.7296412171405039
+        ],
+        "n_categories": 4
+      },
+      "fine": {
+        "retrieval": {
+          "map": 0.5044066317626528,
+          "ndcg@10": 0.5450089516837556,
+          "recall@10": 0.6727748691099477,
+          "n_samples": 382
+        },
+        "generation": {
+          "rouge1": 0.30409104608617205,
+          "bleu": 0.02737391083495174,
+          "cosine_sim": 0.6837787779428416,
+          "cosine_sim_std": 0.15629739586928298,
+          "refusal_rate": 0.0,
+          "n_samples": 382
+        },
+        "discriminative_power": 0.03692150899925961,
+        "category_means": [
+          0.6466278897031493,
+          0.6977985533800992,
+          0.6254464529062572,
+          0.6699118956315274,
+          0.7246310047127984,
+          0.6566902052949776,
+          0.7032478813161241,
+          0.7381805373976628
+        ],
+        "n_categories": 8
+      }
+    },
+    "question_linguisticvariation": {
+      "coarse": {
+        "retrieval": {
+          "map": 0.41192502025835354,
+          "ndcg@10": 0.45775473601230965,
+          "recall@10": 0.6006006006006006,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.2854521577960052,
+          "bleu": 0.020787688895208958,
+          "cosine_sim": 0.6723204646203611,
+          "cosine_sim_std": 0.16882941194704268,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.038639638537383114,
+        "category_means": [
+          0.6354213503414187,
+          0.7127006274161849
+        ],
+        "n_categories": 2
+      },
+      "medium": {
+        "retrieval": {
+          "map": 0.34322417655750986,
+          "ndcg@10": 0.37426228164189235,
+          "recall@10": 0.47147147147147145,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.2812100083986327,
+          "bleu": 0.01889879692769674,
+          "cosine_sim": 0.6707555726841763,
+          "cosine_sim_std": 0.15066566533851405,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.04689589975215308,
+        "category_means": [
+          0.7176519270054996,
+          0.6394354739746491,
+          0.7243129545450211,
+          0.6177173114501604
+        ],
+        "n_categories": 4
+      },
+      "fine": {
+        "retrieval": {
+          "map": 0.44649886112890597,
+          "ndcg@10": 0.4781744024140957,
+          "recall@10": 0.57847533632287,
+          "n_samples": 446
+        },
+        "generation": {
+          "rouge1": 0.3003031504210691,
+          "bleu": 0.023687414900301167,
+          "cosine_sim": 0.6985599013053783,
+          "cosine_sim_std": 0.14471376989891735,
+          "refusal_rate": 0.0,
+          "n_samples": 446
+        },
+        "discriminative_power": 0.03123346106567955,
+        "category_means": [
+          0.716979905962944,
+          0.705427281436373,
+          0.710019412578321,
+          0.7220424637198448,
+          0.6244146391505101,
+          0.7294292533606813,
+          0.6834017886953839,
+          0.7067647570709013
+        ],
+        "n_categories": 8
+      }
+    }
+  },
+  "rq1_fine": {
+    "question_complexity": {
+      "comparative_synthesis": {
+        "n": 65,
+        "map": 0.6743589743589745,
+        "cosine_sim": 0.7528102819736188
+      },
+      "comparative_synthesis_concepts": {
+        "n": 50,
+        "map": 0.5657460317460317,
+        "cosine_sim": 0.7661726170778275
+      },
+      "entity_extraction": {
+        "n": 62,
+        "map": 0.6064900153609831,
+        "cosine_sim": 0.6363242501693387
+      },
+      "extractive_span": {
+        "n": 55,
+        "map": 0.5228787878787878,
+        "cosine_sim": 0.6185981083999981
+      },
+      "multi_hop_reasoning": {
+        "n": 58,
+        "map": 0.46137110016420363,
+        "cosine_sim": 0.7431292664901964
+      },
+      "multi_span_aggregation": {
+        "n": 51,
+        "map": 0.5532135076252723,
+        "cosine_sim": 0.7045732216507781
+      },
+      "paraphrasing_required": {
+        "n": 46,
+        "map": 0.6039855072463768,
+        "cosine_sim": 0.6823549218799757
+      },
+      "single_hop_inference": {
+        "n": 59,
+        "map": 0.49540624159268226,
+        "cosine_sim": 0.7549233310461297
+      }
+    },
+    "question_answertype": {
+      "analytical_synthesis": {
+        "n": 47,
+        "map": 0.45793650793650786,
+        "cosine_sim": 0.7032478813161241
+      },
+      "condensed_summary": {
+        "n": 44,
+        "map": 0.3489177489177489,
+        "cosine_sim": 0.7246310047127984
+      },
+      "entity_extraction": {
+        "n": 55,
+        "map": 0.6742424242424243,
+        "cosine_sim": 0.6566902052949776
+      },
+      "explanatory_synthesis": {
+        "n": 48,
+        "map": 0.39490740740740743,
+        "cosine_sim": 0.7381805373976628
+      },
+      "ordered_sequence": {
+        "n": 38,
+        "map": 0.5471491228070174,
+        "cosine_sim": 0.6254464529062572
+      },
+      "phrase_extraction": {
+        "n": 46,
+        "map": 0.5130693581780538,
+        "cosine_sim": 0.6466278897031493
+      },
+      "sentence_extraction": {
+        "n": 49,
+        "map": 0.4780855199222546,
+        "cosine_sim": 0.6699118956315274
+      },
+      "unordered_list": {
+        "n": 55,
+        "map": 0.5809090909090909,
+        "cosine_sim": 0.6977985533800992
+      }
+    },
+    "question_linguisticvariation": {
+      "abstraction_level_shift": {
+        "n": 57,
+        "map": 0.45102339181286555,
+        "cosine_sim": 0.7294292533606813
+      },
+      "domain_shift_terminology": {
+        "n": 60,
+        "map": 0.3327248677248677,
+        "cosine_sim": 0.7220424637198448
+      },
+      "high_lexical_overlap": {
+        "n": 61,
+        "map": 0.5901379130887326,
+        "cosine_sim": 0.705427281436373
+      },
+      "low_lexical_overlap": {
+        "n": 61,
+        "map": 0.22517564402810308,
+        "cosine_sim": 0.6244146391505101
+      },
+      "moderate_lexical_overlap": {
+        "n": 51,
+        "map": 0.5208061002178649,
+        "cosine_sim": 0.710019412578321
+      },
+      "moderate_low_lexical_overlap": {
+        "n": 53,
+        "map": 0.5487421383647799,
+        "cosine_sim": 0.7067647570709013
+      },
+      "synonym_based_rephrase": {
+        "n": 59,
+        "map": 0.2934019370460048,
+        "cosine_sim": 0.6834017886953839
+      },
+      "verbatim_terminology": {
+        "n": 44,
+        "map": 0.6994859307359307,
+        "cosine_sim": 0.716979905962944
+      }
+    }
+  },
+  "rq2": {
+    "complexity": {
+      "retrieval": {
+        "map": 0.4776378968253968,
+        "ndcg@10": 0.5229393417994895,
+        "recall@10": 0.665,
+        "n_samples": 400
+      },
+      "generation": {
+        "rouge1": 0.31241989722675667,
+        "bleu": 0.024421308996695278,
+        "cosine_sim": 0.7035439187660814,
+        "cosine_sim_std": 0.1452284097948924,
+        "refusal_rate": 0.0,
+        "n_samples": 400
+      },
+      "performance_range": 0.009599085637024718
+    },
+    "answertype": {
+      "retrieval": {
+        "map": 0.5061081349206349,
+        "ndcg@10": 0.5471505926419643,
+        "recall@10": 0.675,
+        "n_samples": 400
+      },
+      "generation": {
+        "rouge1": 0.31129421879965063,
+        "bleu": 0.026326600672437035,
+        "cosine_sim": 0.7105307247349992,
+        "cosine_sim_std": 0.14210233800659292,
+        "refusal_rate": 0.0,
+        "n_samples": 400
+      },
+      "performance_range": 0.0592795123459634
+    },
+    "vocabulary": {
+      "retrieval": {
+        "map": 0.36871329365079364,
+        "ndcg@10": 0.4037593594811744,
+        "recall@10": 0.515,
+        "n_samples": 400
+      },
+      "generation": {
+        "rouge1": 0.29174333076478476,
+        "bleu": 0.021996305075810418,
+        "cosine_sim": 0.6947627494321205,
+        "cosine_sim_std": 0.14374268422789374,
+        "refusal_rate": 0.0,
+        "n_samples": 400
+      },
+      "performance_range": 0.07700285647666472
+    },
+    "phrasing": {
+      "retrieval": {
+        "map": 0.5028968253968253,
+        "ndcg@10": 0.5441251737271006,
+        "recall@10": 0.675,
+        "n_samples": 400
+      },
+      "generation": {
+        "rouge1": 0.2831891164207474,
+        "bleu": 0.024109233626025846,
+        "cosine_sim": 0.702783289551735,
+        "cosine_sim_std": 0.14768522410277193,
+        "refusal_rate": 0.0,
+        "n_samples": 400
+      },
+      "performance_range": 0.06853860737876127
+    },
+    "expertise": {
+      "retrieval": {
+        "map": 0.522983134920635,
+        "ndcg@10": 0.5614162457724092,
+        "recall@10": 0.6825,
+        "n_samples": 400
+      },
+      "generation": {
+        "rouge1": 0.31857732628766533,
+        "bleu": 0.027546360387858838,
+        "cosine_sim": 0.7197141927946359,
+        "cosine_sim_std": 0.15056680579331103,
+        "refusal_rate": 0.0,
+        "n_samples": 400
+      },
+      "performance_range": 0.03505795499079256
+    }
+  },
+  "rq3": {
+    "d||": {
+      "n": 265,
+      "retrieval": {
+        "map": 0.23653788559448938,
+        "ndcg@10": 0.26922359360047876,
+        "recall@10": 0.37358490566037733,
+        "n_samples": 265
+      },
+      "generation": {
+        "rouge1": 0.2558271505468784,
+        "bleu": 0.023904794427770257,
+        "cosine_sim": 0.5780590282717966,
+        "cosine_sim_std": 0.1829464047494481,
+        "refusal_rate": 0.37735849056603776,
+        "n_samples": 265
+      },
+      "vocab_label": "distant_from_document",
+      "comp_label": "simple"
+    },
+    "s||": {
+      "n": 252,
+      "retrieval": {
+        "map": 0.5474237843285462,
+        "ndcg@10": 0.5973196720611629,
+        "recall@10": 0.753968253968254,
+        "n_samples": 252
+      },
+      "generation": {
+        "rouge1": 0.3237141917526142,
+        "bleu": 0.04357155764612235,
+        "cosine_sim": 0.6366094471554139,
+        "cosine_sim_std": 0.18928379855218833,
+        "refusal_rate": 0.0,
+        "n_samples": 252
+      },
+      "vocab_label": "similar_to_document",
+      "comp_label": "simple"
+    }
+  },
+  "baseline": {
+    "structured": {
+      "diversity": {
+        "ndg_score": 0.6475590648579557,
+        "self_repetition_4gram": 0.5608190709046454,
+        "compression_ratio": 0.3597081406694099,
+        "unique_questions": 3272,
+        "total_questions": 3272,
+        "uniqueness_ratio": 1.0
+      },
+      "semantic_distance": 0.93571537733078,
+      "coverage_radius": 0.7458918690681458,
+      "perf_std": 0.1542002118411107,
+      "perf_range": 0.9961630143225193
+    },
+    "random": {
+      "diversity": {
+        "ndg_score": 0.6475590648579557,
+        "self_repetition_4gram": 0.5608190709046454,
+        "compression_ratio": 0.35936311316619296,
+        "unique_questions": 3272,
+        "total_questions": 3272,
+        "uniqueness_ratio": 1.0
+      },
+      "semantic_distance": 0.9357156157493591,
+      "coverage_radius": 0.7458919286727905,
+      "perf_std": 0.1542002118411107,
+      "perf_range": 0.9961630143225193
+    }
+  },
+  "mutual_information": {
+    "question_complexity|coarse": {
+      "mi": 0.005384147931086627,
+      "normalized_mi": 0.007823194789464423,
+      "n": 333
+    },
+    "question_complexity|medium": {
+      "mi": 0.037378336811475725,
+      "normalized_mi": 0.026975856117593355,
+      "n": 333
+    },
+    "question_complexity|fine": {
+      "mi": 0.08218584220015339,
+      "normalized_mi": 0.039635505032389017,
+      "n": 446
+    },
+    "question_answertype|coarse": {
+      "mi": 0.019106467754485323,
+      "normalized_mi": 0.027566420208814515,
+      "n": 333
+    },
+    "question_answertype|medium": {
+      "mi": 0.03631726635685529,
+      "normalized_mi": 0.026261085922438036,
+      "n": 333
+    },
+    "question_answertype|fine": {
+      "mi": 0.07239145508815711,
+      "normalized_mi": 0.03491519364574277,
+      "n": 382
+    },
+    "question_linguisticvariation|coarse": {
+      "mi": 0.03409808202385706,
+      "normalized_mi": 0.04926526557574518,
+      "n": 333
+    },
+    "question_linguisticvariation|medium": {
+      "mi": 0.07500532857234876,
+      "normalized_mi": 0.054399332043743094,
+      "n": 333
+    },
+    "question_linguisticvariation|fine": {
+      "mi": 0.04209689697118528,
+      "normalized_mi": 0.020295920061203197,
+      "n": 446
+    }
+  },
+  "diversity_ci": {
+    "ndg": {
+      "mean": 0.6591444510947132,
+      "lower": 0.6577657934849102,
+      "upper": 0.6605231087045162
+    },
+    "self_repetition": {
+      "mean": 0.5421169277799006,
+      "lower": 0.530409302095032,
+      "upper": 0.5538245534647692
+    },
+    "compression_ratio": {
+      "mean": 0.3607108017532732,
+      "lower": 0.3595096144615488,
+      "upper": 0.3619119890449976
+    }
+  },
+  "calibration": {
+    "question_complexity": {
+      "single_fact": {
+        "parent_perf": 0.6506652733420625,
+        "children_mean": 0.6274611792846684,
+        "children_perfs": [
+          0.6185981083999981,
+          0.6363242501693387
+        ],
+        "vertical_deviation": 0.023204094057394098,
+        "sibling_variance": 0.00886307088467031,
+        "coherence_ratio": 0.3661806495898463,
+        "is_well_calibrated": "False"
+      },
+      "multi_fact_local": {
+        "parent_perf": 0.7147354020791895,
+        "children_mean": 0.6934640717653768,
+        "children_perfs": [
+          0.7045732216507781,
+          0.6823549218799757
+        ],
+        "vertical_deviation": 0.021271330313812675,
+        "sibling_variance": 0.011109149885401182,
+        "coherence_ratio": 0.49880944374980996,
+        "is_well_calibrated": "False"
+      },
+      "cross_section_synthesis": {
+        "parent_perf": 0.7370839439905607,
+        "children_mean": 0.7490262987681631,
+        "children_perfs": [
+          0.7549233310461297,
+          0.7431292664901964
+        ],
+        "vertical_deviation": 0.011942354777602415,
+        "sibling_variance": 0.005897032277966674,
+        "coherence_ratio": 0.45563828061427203,
+        "is_well_calibrated": "False"
+      },
+      "comparative_analysis": {
+        "parent_perf": 0.7366858738310197,
+        "children_mean": 0.7594914495257231,
+        "children_perfs": [
+          0.7528102819736188,
+          0.7661726170778275
+        ],
+        "vertical_deviation": 0.02280557569470343,
+        "sibling_variance": 0.00668116755210435,
+        "coherence_ratio": 0.2806555757267766,
+        "is_well_calibrated": "False"
+      }
+    },
+    "question_answertype": {
+      "short_span_extraction": {
+        "parent_perf": 0.6221760794520378,
+        "children_mean": 0.6516590474990634,
+        "children_perfs": [
+          0.6566902052949776,
+          0.6466278897031493
+        ],
+        "vertical_deviation": 0.02948296804702566,
+        "sibling_variance": 0.005031157795914121,
+        "coherence_ratio": 0.16504816027601452,
+        "is_well_calibrated": "False"
+      },
+      "list_or_enumeration": {
+        "parent_perf": 0.7284567092961454,
+        "children_mean": 0.6616225031431782,
+        "children_perfs": [
+          0.6977985533800992,
+          0.6254464529062572
+        ],
+        "vertical_deviation": 0.0668342061529672,
+        "sibling_variance": 0.036176050236921,
+        "coherence_ratio": 0.5333010038525907,
+        "is_well_calibrated": "False"
+      },
+      "summary_or_explanation": {
+        "parent_perf": 0.7045394399551204,
+        "children_mean": 0.6972714501721629,
+        "children_perfs": [
+          0.7246310047127984,
+          0.6699118956315274
+        ],
+        "vertical_deviation": 0.007267989782957507,
+        "sibling_variance": 0.02735955454063549,
+        "coherence_ratio": 3.309093898136001,
+        "is_well_calibrated": "True"
+      },
+      "synthesis_or_analysis": {
+        "parent_perf": 0.7296412171405039,
+        "children_mean": 0.7207142093568935,
+        "children_perfs": [
+          0.7032478813161241,
+          0.7381805373976628
+        ],
+        "vertical_deviation": 0.008927007783610441,
+        "sibling_variance": 0.017466328040769308,
+        "coherence_ratio": 1.7594756064970891,
+        "is_well_calibrated": "False"
+      }
+    },
+    "question_linguisticvariation": {
+      "exact_terminology": {
+        "parent_perf": 0.7243129545450211,
+        "children_mean": 0.7112035936996586,
+        "children_perfs": [
+          0.716979905962944,
+          0.705427281436373
+        ],
+        "vertical_deviation": 0.013109360845362517,
+        "sibling_variance": 0.00577631226328551,
+        "coherence_ratio": 0.4093957427691755,
+        "is_well_calibrated": "False"
+      },
+      "partial_overlap": {
+        "parent_perf": 0.7176519270054996,
+        "children_mean": 0.7083920848246111,
+        "children_perfs": [
+          0.710019412578321,
+          0.7067647570709013
+        ],
+        "vertical_deviation": 0.009259842180888489,
+        "sibling_variance": 0.001627327753709884,
+        "coherence_ratio": 0.15861138261377813,
+        "is_well_calibrated": "False"
+      },
+      "synonym_substitution": {
+        "parent_perf": 0.6177173114501604,
+        "children_mean": 0.6539082139229471,
+        "children_perfs": [
+          0.6244146391505101,
+          0.6834017886953839
+        ],
+        "vertical_deviation": 0.03619090247278667,
+        "sibling_variance": 0.029493574772436915,
+        "coherence_ratio": 0.793031973182634,
+        "is_well_calibrated": "True"
+      },
+      "conceptual_rephrase": {
+        "parent_perf": 0.6394354739746491,
+        "children_mean": 0.7257358585402631,
+        "children_perfs": [
+          0.7220424637198448,
+          0.7294292533606813
+        ],
+        "vertical_deviation": 0.08630038456561406,
+        "sibling_variance": 0.00369339482041825,
+        "coherence_ratio": 0.04230674170332357,
+        "is_well_calibrated": "False"
+      }
+    }
+  }
+}
