@@ -2,6 +2,8 @@
 
 This repository contains our implementation for the short paper manuscript "Designing Diverse RAG Benchmarks: A Hierarchical Framework for Synthetic Question Generation"
 
+**For expanded tables and extended metrics -- please see [Extended Results](./extended_results.md).**
+
 ## Installation
 
 ```bash
@@ -15,7 +17,6 @@ python -m spacy download en_core_web_lg
 ```
 
 Also, ensure you populate your .env file with your Huggingface and ai71 tokens.
-
 
 ## Usage
 
