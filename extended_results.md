@@ -8,7 +8,7 @@ Abbreviations:
 MAP (Mean Average Precision); nDCG@10 (Normalized Discounted Cumulative Gain @ 10); ROUGE-1 (Recall-Oriented Understudy for Gisting Evaluation); BLEU (Bilingual Evaluation Understudy); CS (Cosine Similarity); NMI (Normalized Mutual Information); DiscPow (Discriminative Power, calculated here within a granularity as the standard deviation of cosine similarity scores across categories). For coherence ratio, see Eqn (1) of main text for definitions of ρ_coherence, δ_vert, and σ_sib.
 
 - Dimensions:
-LV (Linguistic Variation); AT (Answer Types); QC (Question Complexity). Phrasing = Phrasing for clarity.
+LV (Linguistic Variation); AT (Answer Types); QC (Question Complexity). Phrasing dimension is referred to only as phrasing.
 
 ---
 
