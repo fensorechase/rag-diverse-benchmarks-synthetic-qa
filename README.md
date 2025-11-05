@@ -9,9 +9,7 @@ This repository contains our implementation for the short paper manuscript "Desi
 ```bash
 # Clone repository
 git clone (from https://anonymous.4open.science/r/rag-diverse-benchmarks-synthetic-qa-3E08)
-
 # Install dependencies
-```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_lg
 ```
