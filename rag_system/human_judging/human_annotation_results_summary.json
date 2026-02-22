@@ -1,0 +1,11 @@
+{
+  "iaa_correctness": 0.4713656387665197,
+  "iaa_hallucination": -0.07142857142857194,
+  "iaa_answerability": 0.0881458966565348,
+  "pct_acceptable_answers": 98.18181818181819,
+  "pct_no_hallucination": 90.9090909090909,
+  "pct_answerable": 98.18181818181819,
+  "category_exact_agreement": 19.642857142857142,
+  "category_hierarchical_agreement": 8.928571428571429,
+  "category_combined_agreement": 28.57142857142857
+}

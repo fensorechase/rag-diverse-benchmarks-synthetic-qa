@@ -1,0 +1,115 @@
+
+# RAG Benchmark Annotation Instructions - HYBRID VERSION
+
+## Overview
+You will evaluate **70 question-answer pairs** in two ways:
+
+1. **ALL 70 questions:** Rate answer quality (correctness, hallucination, answerability)
+2. **~20 questions (HIGHLIGHTED IN YELLOW):** Also validate category assignment
+
+**Total estimated time:** 25-30 minutes
+
+---
+
+## Part 1: Answer Quality (ALL 70 Questions)
+
+### Rating 1: Answer Correctness (0-3)
+Rate the `reference_answer` against the `source_document`:
+
+- **3** = Correct & complete - fully addresses question based on document
+- **2** = Mostly correct - minor details missing or small inaccuracies
+- **1** = Partially correct - significant errors or omissions
+- **0** = Incorrect/hallucinated - contradicts document or invents facts
+
+### Rating 2: Hallucination Score (0-2)
+Does the answer contain information NOT in the source document?
+
+- **0** = No hallucination - all info grounded in document
+- **1** = Minor hallucination - adds plausible inference/world knowledge (not contradictory)
+- **2** = Major hallucination - invents specific facts not present in document
+
+### Rating 3: Question Answerability (0-3)
+Can the question be answered using the source document?
+
+- **3** = Fully answerable - document contains all info needed
+- **2** = Mostly answerable - document has most info but missing some details
+- **1** = Partially answerable - document only hints at answer
+- **0** = Unanswerable - document doesn't contain relevant info
+
+---
+
+## Part 2: Category Validation (YELLOW ROWS ONLY - ~20 questions)
+
+For rows **highlighted in yellow**, you must also validate the category assignment.
+
+### Rating 4: Category Validation
+1. Check the `dimension` column (QC / AT / LV)
+2. Look at the assigned `category_name`
+3. Open the file **category_validation_reference.txt** to see all category options
+4. In the `category_validation` column, type which category BEST fits the question
+   - This might be the same as the assigned category (good!)
+   - Or it might be different (that's OK, we want your honest assessment)
+
+### Rating 5: Category Confidence
+Select: **High** / **Medium** / **Low**
+
+**IMPORTANT:** For non-highlighted rows, leave category validation columns BLANK.
+
+---
+
+## Examples
+
+### Example 1: Answer Quality Only (White Row)
+
+**Source Document:** "Aspirin has a molecular weight of 180.158 g/mol..."
+
+**Question:** "What is the molecular weight of aspirin?"
+**Reference Answer:** "180.158 g/mol"
+
+**Your Ratings:**
+- Answer Correctness: **3** (correct & complete)
+- Hallucination: **0** (all from document)
+- Question Answerability: **3** (fully answerable)
+- Category Validation: **[LEAVE BLANK - not highlighted]**
+
+---
+
+### Example 2: With Category Validation (Yellow Row)
+
+**Source Document:** "Palmer amaranth is ranked as the most difficult weed to control in the U.S. It can produce up to a million seeds per plant per season and has stems so tough they damage farm equipment."
+
+**Question:** "What makes Palmer amaranth a nightmare for farmers?"
+**Assigned Category:** synonym_substitution (LV)
+**Reference Answer:** "It's difficult to control, produces a million seeds, and damages equipment."
+
+**Your Ratings:**
+- Answer Correctness: **2** (mostly correct, slightly incomplete)
+- Hallucination: **0** (all from document)
+- Question Answerability: **3** (fully answerable)
+- Category Validation: **synonym_substitution** (document says "difficult weed to control", question says "nightmare" - that's synonym substitution! ✓)
+- Category Confidence: **High**
+
+---
+
+### Example 3: Category Mismatch (Yellow Row)
+
+**Question:** "How many seeds can one plant produce?"
+**Assigned Category:** multi_hop_reasoning (QC)
+
+**Your Assessment:** This is simple extraction (finding one number), NOT multi-hop reasoning!
+
+**Your Ratings:**
+- Category Validation: **entity_extraction**
+- Category Confidence: **High**
+
+---
+
+## Tips
+
+✓ **Answer quality first** - Do all 70 questions for answer ratings, then go back to yellow rows for category validation
+✓ **Use the reference sheet** - Keep category_validation_reference.txt open while working
+✓ **Be honest** - If the assigned category seems wrong, say so! That's valuable data
+✓ **When in doubt** - Select "Medium" or "Low" confidence
+---
+
+Thank you!

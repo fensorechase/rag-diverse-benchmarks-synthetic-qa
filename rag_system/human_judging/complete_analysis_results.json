@@ -1,0 +1,460 @@
+{
+  "rq1": {
+    "question_complexity": {
+      "coarse": {
+        "retrieval": {
+          "map": 0.518299251632585,
+          "ndcg@10": 0.5605858988334068,
+          "recall@10": 0.6936936936936937,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.31484242748392505,
+          "bleu": 0.02708529030884983,
+          "cosine_sim": 0.7119571480665121,
+          "cosine_sim_std": 0.14293265670383717,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.007292266717699669,
+        "category_means": [
+          0.7053875384109268,
+          0.7199720718463262
+        ],
+        "n_categories": 2
+      },
+      "medium": {
+        "retrieval": {
+          "map": 0.5642273225606559,
+          "ndcg@10": 0.6050914927501544,
+          "recall@10": 0.7327327327327328,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.3247571020028928,
+          "bleu": 0.031223087608324512,
+          "cosine_sim": 0.709218898508418,
+          "cosine_sim_std": 0.1430389849180019,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.03531479506744989,
+        "category_means": [
+          0.7370839130419952,
+          0.6506652358481113,
+          0.7366858559496262,
+          0.7147353550967048
+        ],
+        "n_categories": 4
+      },
+      "fine": {
+        "retrieval": {
+          "map": 0.5615853441526087,
+          "ndcg@10": 0.6010072298964965,
+          "recall@10": 0.7242152466367713,
+          "n_samples": 446
+        },
+        "generation": {
+          "rouge1": 0.3228015058047841,
+          "bleu": 0.029328058244193985,
+          "cosine_sim": 0.7078023006191536,
+          "cosine_sim_std": 0.1535683249642882,
+          "refusal_rate": 0.0,
+          "n_samples": 446
+        },
+        "discriminative_power": 0.05317909567312458,
+        "category_means": [
+          0.7549233021593448,
+          0.6185980918732557,
+          0.7528102466693292,
+          0.6823549147533334,
+          0.7045731959389705,
+          0.7431292469645369,
+          0.7661726188659668,
+          0.6363242552165063
+        ],
+        "n_categories": 8
+      }
+    },
+    "question_answertype": {
+      "coarse": {
+        "retrieval": {
+          "map": 0.49092306592306595,
+          "ndcg@10": 0.5361378165522026,
+          "recall@10": 0.6786786786786787,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.3086107641224442,
+          "bleu": 0.02106256150812535,
+          "cosine_sim": 0.6921097925296417,
+          "cosine_sim_std": 0.16106876048047275,
+          "refusal_rate": 0.3003003003003003,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.023856561630157924,
+        "category_means": [
+          0.7161812781384497,
+          0.6684681548781338
+        ],
+        "n_categories": 2
+      },
+      "medium": {
+        "retrieval": {
+          "map": 0.5141832308498975,
+          "ndcg@10": 0.5511069822517514,
+          "recall@10": 0.6666666666666666,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.31717867242144865,
+          "bleu": 0.023933717482587956,
+          "cosine_sim": 0.6988463628584066,
+          "cosine_sim_std": 0.16108523512311912,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.04389731589324353,
+        "category_means": [
+          0.7045394013108439,
+          0.6221760505437851,
+          0.7284566978824899,
+          0.7296411744606348
+        ],
+        "n_categories": 4
+      },
+      "fine": {
+        "retrieval": {
+          "map": 0.5044066317626528,
+          "ndcg@10": 0.5450089516837556,
+          "recall@10": 0.6727748691099477,
+          "n_samples": 382
+        },
+        "generation": {
+          "rouge1": 0.30409104608617205,
+          "bleu": 0.02737391083495174,
+          "cosine_sim": 0.6837787679859793,
+          "cosine_sim_std": 0.15629739902465753,
+          "refusal_rate": 0.0,
+          "n_samples": 382
+        },
+        "discriminative_power": 0.03692150093766,
+        "category_means": [
+          0.6466278976396375,
+          0.6977985279126601,
+          0.6254464419264543,
+          0.6699118956315274,
+          0.7246309918436137,
+          0.656690209155733,
+          0.7032478635615491,
+          0.7381805131832758
+        ],
+        "n_categories": 8
+      }
+    },
+    "question_linguisticvariation": {
+      "coarse": {
+        "retrieval": {
+          "map": 0.41192502025835354,
+          "ndcg@10": 0.45775473601230965,
+          "recall@10": 0.6006006006006006,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.2854521577960052,
+          "bleu": 0.020787688895208958,
+          "cosine_sim": 0.6723204503456751,
+          "cosine_sim_std": 0.16882941365245652,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.03863963766887579,
+        "category_means": [
+          0.6354213368961181,
+          0.7127006122338697
+        ],
+        "n_categories": 2
+      },
+      "medium": {
+        "retrieval": {
+          "map": 0.34322417655750986,
+          "ndcg@10": 0.37426228164189235,
+          "recall@10": 0.47147147147147145,
+          "n_samples": 333
+        },
+        "generation": {
+          "rouge1": 0.2812100083986327,
+          "bleu": 0.01889879692769674,
+          "cosine_sim": 0.6707555454213161,
+          "cosine_sim_std": 0.15066566934471212,
+          "refusal_rate": 0.0,
+          "n_samples": 333
+        },
+        "discriminative_power": 0.04689590813654552,
+        "category_means": [
+          0.7176519100554287,
+          0.6394354426241541,
+          0.7243129348754883,
+          0.6177172734964602
+        ],
+        "n_categories": 4
+      },
+      "fine": {
+        "retrieval": {
+          "map": 0.44649886112890597,
+          "ndcg@10": 0.4781744024140957,
+          "recall@10": 0.57847533632287,
+          "n_samples": 446
+        },
+        "generation": {
+          "rouge1": 0.3003031504210691,
+          "bleu": 0.023687414900301167,
+          "cosine_sim": 0.6985598705007356,
+          "cosine_sim_std": 0.14471377970338625,
+          "refusal_rate": 0.0,
+          "n_samples": 446
+        },
+        "discriminative_power": 0.03123345397017837,
+        "category_means": [
+          0.7169798890298064,
+          0.7054272548097079,
+          0.7100193743027893,
+          0.7220424296955268,
+          0.6244146257150368,
+          0.7294292094414694,
+          0.6834017624289302,
+          0.7067647098370318
+        ],
+        "n_categories": 8
+      }
+    }
+  },
+  "calibration": {
+    "question_complexity": {
+      "simple": {
+        "level": "coarse_to_medium",
+        "children": [
+          "single_fact",
+          "multi_fact_local"
+        ],
+        "coherence_ratio": 1.3524182492426455
+      },
+      "complex": {
+        "level": "coarse_to_medium",
+        "children": [
+          "cross_section_synthesis",
+          "comparative_analysis"
+        ],
+        "coherence_ratio": 0.011110960075284658
+      },
+      "single_fact": {
+        "level": "medium_to_fine",
+        "children": [
+          "extractive_span",
+          "entity_extraction"
+        ],
+        "coherence_ratio": 0.36618157566229736
+      },
+      "multi_fact_local": {
+        "level": "medium_to_fine",
+        "children": [
+          "multi_span_aggregation",
+          "paraphrasing_required"
+        ],
+        "coherence_ratio": 0.4988097110292254
+      },
+      "cross_section_synthesis": {
+        "level": "medium_to_fine",
+        "children": [
+          "single_hop_inference",
+          "multi_hop_reasoning"
+        ],
+        "coherence_ratio": 0.45563768160207596
+      },
+      "comparative_analysis": {
+        "level": "medium_to_fine",
+        "children": [
+          "comparative_synthesis",
+          "comparative_synthesis_concepts"
+        ],
+        "coherence_ratio": 0.2806563415535843
+      }
+    },
+    "question_answertype": {
+      "extractive": {
+        "level": "coarse_to_medium",
+        "children": [
+          "short_span_extraction",
+          "list_or_enumeration"
+        ],
+        "coherence_ratio": 6.771003892862975
+      },
+      "abstractive": {
+        "level": "coarse_to_medium",
+        "children": [
+          "summary_or_explanation",
+          "synthesis_or_analysis"
+        ],
+        "coherence_ratio": 6.574553426306241
+      },
+      "short_span_extraction": {
+        "level": "medium_to_fine",
+        "children": [
+          "entity_extraction",
+          "phrase_extraction"
+        ],
+        "coherence_ratio": 0.16504790496399704
+      },
+      "list_or_enumeration": {
+        "level": "medium_to_fine",
+        "children": [
+          "unordered_list",
+          "ordered_sequence"
+        ],
+        "coherence_ratio": 0.5333008435267151
+      },
+      "summary_or_explanation": {
+        "level": "medium_to_fine",
+        "children": [
+          "condensed_summary",
+          "sentence_extraction"
+        ],
+        "coherence_ratio": 3.3091060111972994
+      },
+      "synthesis_or_analysis": {
+        "level": "medium_to_fine",
+        "children": [
+          "analytical_synthesis",
+          "explanatory_synthesis"
+        ],
+        "coherence_ratio": 1.7594791264577065
+      }
+    },
+    "question_linguisticvariation": {
+      "similar_to_document": {
+        "level": "coarse_to_medium",
+        "children": [
+          "exact_terminology",
+          "partial_overlap"
+        ],
+        "coherence_ratio": 0.3588214288948782
+      },
+      "distant_from_document": {
+        "level": "coarse_to_medium",
+        "children": [
+          "synonym_substitution",
+          "conceptual_rephrase"
+        ],
+        "coherence_ratio": 1.3842082676217247
+      },
+      "exact_terminology": {
+        "level": "medium_to_fine",
+        "children": [
+          "verbatim_terminology",
+          "high_lexical_overlap"
+        ],
+        "coherence_ratio": 0.40939602504894823
+      },
+      "partial_overlap": {
+        "level": "medium_to_fine",
+        "children": [
+          "moderate_lexical_overlap",
+          "moderate_low_lexical_overlap"
+        ],
+        "coherence_ratio": 0.15861142026152195
+      },
+      "synonym_substitution": {
+        "level": "medium_to_fine",
+        "children": [
+          "low_lexical_overlap",
+          "synonym_based_rephrase"
+        ],
+        "coherence_ratio": 0.7930314146716094
+      },
+      "conceptual_rephrase": {
+        "level": "medium_to_fine",
+        "children": [
+          "domain_shift_terminology",
+          "abstraction_level_shift"
+        ],
+        "coherence_ratio": 0.042306688725134815
+      }
+    }
+  },
+  "human_metric_validation": {
+    "correlation_r": 0.22704298469705333,
+    "correlation_p": 0.18964530082099817,
+    "data": {
+      "extractive": {
+        "Coherence_Ratio": 6.771003892862975,
+        "Is_Agreed": 1.0,
+        "N_Samples": 4
+      },
+      "abstractive": {
+        "Coherence_Ratio": 6.574553426306241,
+        "Is_Agreed": 1.0,
+        "N_Samples": 4
+      },
+      "synthesis_or_analysis": {
+        "Coherence_Ratio": 1.7594791264577065,
+        "Is_Agreed": 1.0,
+        "N_Samples": 1
+      },
+      "distant_from_document": {
+        "Coherence_Ratio": 1.3842082676217247,
+        "Is_Agreed": 0.5714285714285714,
+        "N_Samples": 7
+      },
+      "simple": {
+        "Coherence_Ratio": 1.3524182492426455,
+        "Is_Agreed": 1.0,
+        "N_Samples": 2
+      },
+      "synonym_substitution": {
+        "Coherence_Ratio": 0.7930314146716094,
+        "Is_Agreed": 1.0,
+        "N_Samples": 1
+      },
+      "list_or_enumeration": {
+        "Coherence_Ratio": 0.5333008435267151,
+        "Is_Agreed": 1.0,
+        "N_Samples": 1
+      },
+      "cross_section_synthesis": {
+        "Coherence_Ratio": 0.45563768160207596,
+        "Is_Agreed": 0.5,
+        "N_Samples": 2
+      },
+      "single_fact": {
+        "Coherence_Ratio": 0.36618157566229736,
+        "Is_Agreed": 1.0,
+        "N_Samples": 1
+      },
+      "similar_to_document": {
+        "Coherence_Ratio": 0.3588214288948782,
+        "Is_Agreed": 1.0,
+        "N_Samples": 4
+      },
+      "comparative_analysis": {
+        "Coherence_Ratio": 0.2806563415535843,
+        "Is_Agreed": 1.0,
+        "N_Samples": 1
+      },
+      "partial_overlap": {
+        "Coherence_Ratio": 0.15861142026152195,
+        "Is_Agreed": 1.0,
+        "N_Samples": 1
+      },
+      "conceptual_rephrase": {
+        "Coherence_Ratio": 0.042306688725134815,
+        "Is_Agreed": 0.0,
+        "N_Samples": 2
+      },
+      "complex": {
+        "Coherence_Ratio": 0.011110960075284658,
+        "Is_Agreed": 1.0,
+        "N_Samples": 4
+      }
+    }
+  }
+}
