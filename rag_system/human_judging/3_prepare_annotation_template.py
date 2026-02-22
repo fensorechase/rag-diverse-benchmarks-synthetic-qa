@@ -227,7 +227,7 @@ annotation_template['notes'] = ''
 annotation_template['cosine_similarity'] = annotation_template['cosine_similarity'].round(3)
 annotation_template['map_score'] = annotation_template['map_score'].round(3)
 
-print(f"✓ Template prepared: {len(annotation_template)} rows")
+print(f" Template prepared: {len(annotation_template)} rows")
 
 
 
@@ -261,7 +261,7 @@ def select_shared_questions(df, n_shared=30):
     return shared_df
 
 shared_questions = select_shared_questions(annotation_template, n_shared=30)
-print(f"✓ Selected {len(shared_questions)} shared questions")
+print(f" Selected {len(shared_questions)} shared questions")
 
 # Get remaining questions (after removing shared)
 remaining_questions = annotation_template[~annotation_template['qa_id'].isin(shared_questions['qa_id'])]
@@ -302,12 +302,12 @@ annotator_1 = annotator_1.sort_values('needs_category_validation', ascending=Fal
 annotator_2 = annotator_2.sort_values('needs_category_validation', ascending=False).reset_index(drop=True)
 annotator_3 = annotator_3.sort_values('needs_category_validation', ascending=False).reset_index(drop=True)
 
-print(f"\n✓ Annotator batches created:")
+print(f"\n Annotator batches created:")
 for i, batch in enumerate([annotator_1, annotator_2, annotator_3], 1):
     n_cat_val = batch['needs_category_validation'].sum()
     print(f"  Annotator {i}: {len(batch)} total, {n_cat_val} category validation")
 
-print(f"\n✓ Annotator batches created:")
+print(f"\n Annotator batches created:")
 print(f"  Annotator 1: {len(annotator_1)} questions")
 print(f"  Annotator 2: {len(annotator_2)} questions")
 print(f"  Annotator 3: {len(annotator_3)} questions")
@@ -333,7 +333,7 @@ def format_annotation_excel(filename, annotator_num):
     wb = load_workbook(filename)
     ws = wb.active
     
-    # Column indices (adjust based on your actual column order)
+    # Column indices (adjust based on our actual column order)
     col_mapping = {
         'qa_id': 1,
         'rq': 2,
@@ -463,7 +463,7 @@ def format_annotation_excel(filename, annotator_num):
     dv_confidence.add(f'{get_column_letter(col_mapping["category_confidence"])}2:{get_column_letter(col_mapping["category_confidence"])}{ws.max_row}')
     
     wb.save(filename)
-    print(f"✓ Formatted: {filename}")
+    print(f" Formatted: {filename}")
 
 # Create Excel files for annotators
 for i, batch in enumerate([annotator_1, annotator_2, annotator_3], 1):
@@ -497,7 +497,7 @@ for i, batch in enumerate([annotator_1, annotator_2, annotator_3], 1):
 shared_questions[['qa_id', 'question', 'dimension']].to_csv('./annotate_files/trunc_shared_questions_list.csv', index=False)
 
 print("\n" + "="*60)
-print("✓ All files created!")
+print(" All files created!")
 print("\nFiles:")
 print("  - annotation_batch_annotator_1_HYBRID.xlsx")
 print("  - annotation_batch_annotator_2_HYBRID.xlsx")
@@ -659,7 +659,7 @@ For non-highlighted rows: Leave 'category_validation' and 'category_confidence' 
 with open('category_validation_reference.txt', 'w') as f:
     f.write(category_reference)
 
-print("✓ Category reference sheet created: category_validation_reference.txt")
+print("Category reference sheet created: category_validation_reference.txt")
 
 ##########################################
 # Step 8: Create Annotator Instructions
@@ -754,7 +754,7 @@ Select: **High** / **Medium** / **Low**
 - Answer Correctness: **2** (mostly correct, slightly incomplete)
 - Hallucination: **0** (all from document)
 - Question Answerability: **3** (fully answerable)
-- Category Validation: **synonym_substitution** (document says "difficult weed to control", question says "nightmare" - that's synonym substitution! ✓)
+- Category Validation: **synonym_substitution** (document says "difficult weed to control", question says "nightmare" - that's synonym substitution! )
 - Category Confidence: **High**
 
 ---
@@ -774,10 +774,10 @@ Select: **High** / **Medium** / **Low**
 
 ## Tips
 
-✓ **Answer quality first** - Do all 70 questions for answer ratings, then go back to yellow rows for category validation
-✓ **Use the reference sheet** - Keep category_validation_reference.txt open while working
-✓ **Be honest** - If the assigned category seems wrong, say so! That's valuable data
-✓ **When in doubt** - Select "Medium" or "Low" confidence
+ **Answer quality first** - Do all 70 questions for answer ratings, then go back to yellow rows for category validation
+ **Use the reference sheet** - Keep category_validation_reference.txt open while working
+ **Be honest** - If the assigned category seems wrong, say so! That's valuable data
+ **When in doubt** - Select "Medium" or "Low" confidence
 ---
 
 Thank you!
@@ -786,7 +786,7 @@ Thank you!
 with open('./annotate_files/annotator_instructions_HYBRID.txt', 'w') as f:
     f.write(instructions)
 
-print("✓ Instructions created: annotator_instructions_HYBRID.txt")
+print(" Instructions created: annotator_instructions_HYBRID.txt")
 
 
 

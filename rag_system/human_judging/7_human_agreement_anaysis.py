@@ -208,14 +208,14 @@ for dim in ['QC', 'AT', 'LV']:
         print(f"  {dim}: {dim_combined:.1f}% agreement (n={len(dim_validated)})")
 
 # ============================================================================
-# 4. SUMMARY FOR PAPER
+# 4. SUMMARY
 # ============================================================================
 
 print("\n" + "="*70)
-print("SUMMARY FOR PAPER")
+print("SUMMARY")
 print("="*70)
 
-paper_text = f"""
+interpret_results = f"""
 Three annotators independently validated 150 question-answer pairs, rating 
 answer correctness (Fleiss' κ={kappa_correctness:.2f}), hallucination 
 (κ={kappa_hallucination:.2f}), and question answerability 
@@ -228,14 +228,14 @@ hierarchical parent-child match), confirming the validity of our synthetic
 benchmark construction.
 """
 
-print(paper_text)
+print(interpret_results)
 
 # ============================================================================
 # 5. OPTIONAL: CORRELATION WITH COHERENCE RATIO (IF TIME PERMITS)
 # ============================================================================
 
-# Load your coherence ratio results (from paper analysis)
-# This would require merging with your earlier coherence calculations
+# Load our coherence ratio results (from paper analysis)
+# This would require merging with our earlier coherence calculations
 # For now, just note this for discussion
 
 print("\n" + "="*70)
@@ -267,4 +267,4 @@ import json
 with open('human_annotation_results_summary.json', 'w') as f:
     json.dump(results_summary, f, indent=2)
 
-print("\n✓ Results saved to: human_annotation_results_summary.json")
+print("\nResults saved to: human_annotation_results_summary.json")

@@ -9,7 +9,7 @@ def main():
     print("Generating Coherence vs. Agreement Plot...")
 
     # 1. Load Pre-Computed Coherence Ratios (System Metric)
-    # derived from your 5000+ synthetic questions
+    # derived from our 5000+ synthetic questions
     with open('complete_analysis_results.json', 'r') as f:
         results = json.load(f)
         calibration_data = results.get('calibration', {})
@@ -116,7 +116,7 @@ def main():
         plt.xlabel("Human Annotation Outcome")
         plt.tight_layout()
         plt.savefig('coherence_vs_agreement_plot.pdf')
-        print("✓ Plot saved to: coherence_vs_agreement_plot.pdf")
+        print("Plot saved to: coherence_vs_agreement_plot.pdf")
     else:
         print("Not enough data points to plot.")
 

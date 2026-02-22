@@ -8,7 +8,7 @@ rq3_actual = pd.read_json('../results/rq3_results_total.jsonl', lines=True)  # C
 
 if 'qa_id' not in rq3_actual.columns and 'record_id' in rq3_actual.columns:
     rq3_actual['qa_id'] = rq3_actual['record_id']
-    print("✓ Fixed RQ3: renamed 'record_id' to 'qa_id'")
+    print("Fixed RQ3: renamed 'record_id' to 'qa_id'")
 
 print(f"Total questions loaded: {len(rq1_actual) + len(rq2_actual) + len(rq3_actual)}")
 print(f"RQ1 (actual): {len(rq1_actual)}")
@@ -29,7 +29,7 @@ if df_all['qa_id'].isna().any():
     # Generate qa_id for rows that don't have one
     import uuid
     df_all.loc[df_all['qa_id'].isna(), 'qa_id'] = [str(uuid.uuid4()) for _ in range(df_all['qa_id'].isna().sum())]
-    print("✓ Generated qa_id for missing rows")
+    print("Generated qa_id for missing rows")
     
 
 # Extract dimension

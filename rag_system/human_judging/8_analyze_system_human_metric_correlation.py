@@ -327,8 +327,8 @@ def main():
             json.dump(output, f, indent=2, default=lambda x: float(x) if isinstance(x, np.floating) else str(x))
     
     print("\n" + "="*80)
-    print("✓ Analysis complete!")
-    print("✓ Saved to: complete_analysis_results.json")
+    print("Analysis complete")
+    print("Saved to: complete_analysis_results.json")
     print("="*80)
 
 if __name__ == "__main__":
