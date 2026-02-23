@@ -6,7 +6,7 @@ Two ways to generate synthetic QA pairs. The pre-generated datasets are already 
 
 ## Option A: DataMorgana API (exact replication)
 
-Requires an [ai71](https://platform.ai71.ai) account and API key. DataMorgana offers 10,000 free credits.
+This option is not required -- but if you may use this if you have an ai71 account and API key. DataMorgana offers 10,000 free credits. Otherwise please use a close local replication in Option B below.
 
 1. Add your ai71 API key to `.env`.
 2. Set your desired categorizations in `categorization_configs.py`.
