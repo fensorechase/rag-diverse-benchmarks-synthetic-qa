@@ -209,3 +209,4 @@ __marimo__/
 
 # Archived files
 ./rag_system/human_judging/archived/
+./rag_system/human_judging/annotate_files/

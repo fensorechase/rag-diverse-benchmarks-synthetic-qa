@@ -1,0 +1,96 @@
+{
+  "_comment": "Granularity (RQ1) config — three-level hierarchy for question_complexity, question_answertype, and question_linguisticvariation. Use one of the three categorization blocks at a time, or combine them. Probabilities within each categorization must sum to 1.0.",
+
+  "question_categorizations": [
+
+    {
+      "_comment_block": "=== QUESTION COMPLEXITY — choose coarse / medium / fine ===",
+
+      "categorization_name": "question_complexity",
+      "categories": [
+        {
+          "name": "simple",
+          "description": "A question that can be answered using information from a single, localized section of the document without requiring synthesis across multiple parts.",
+          "probability": 0.5
+        },
+        {
+          "name": "complex",
+          "description": "A question that requires synthesizing or connecting information from multiple sections of the document or making inferences beyond directly stated facts.",
+          "probability": 0.5
+        }
+      ]
+    }
+
+  ],
+
+  "user_categorizations": [
+    {
+      "categorization_name": "user_expertise",
+      "categories": [
+        {
+          "name": "expert",
+          "description": "A specialized user with deep understanding of technical terminology and domain concepts who expects precise, detailed information.",
+          "probability": 0.5
+        },
+        {
+          "name": "novice",
+          "description": "A general user with limited domain knowledge who needs explanations using accessible language without specialized jargon.",
+          "probability": 0.5
+        }
+      ]
+    }
+  ],
+
+  "_available_categorization_blocks": {
+
+    "question_complexity_medium": {
+      "categorization_name": "question_complexity",
+      "categories": [
+        {"name": "single_fact",          "description": "A question asking for one specific fact, date, name, or piece of information that appears explicitly in one location in the document.",                                                                    "probability": 0.25},
+        {"name": "multi_fact_local",     "description": "A question requiring multiple facts or pieces of information that appear within the same paragraph or closely related section of the document.",                                                         "probability": 0.25},
+        {"name": "cross_section_synthesis","description": "A question requiring the reader to connect or synthesize information from multiple distinct sections of the document that are not immediately adjacent.",                                           "probability": 0.25},
+        {"name": "comparative_analysis", "description": "A question requiring comparison, contrast, or relational analysis between different entities, concepts, time periods, or perspectives discussed in the document.",                                     "probability": 0.25}
+      ]
+    },
+
+    "question_complexity_fine": {
+      "categorization_name": "question_complexity",
+      "categories": [
+        {"name": "extractive_span",              "description": "A question whose answer is a single contiguous text span that can be directly copied from one location in the document without any modification.",                                                    "probability": 0.167},
+        {"name": "multi_span_aggregation",       "description": "A question requiring aggregation of multiple text spans from the same section (e.g., listing several items, combining related facts from nearby sentences).",                                       "probability": 0.167},
+        {"name": "paraphrasing_required",        "description": "A question whose answer requires paraphrasing or restating information from the document in different words, even though the information comes from one section.",                                    "probability": 0.167},
+        {"name": "single_hop_inference",         "description": "A question requiring one logical inference step beyond what is explicitly stated, such as identifying an implication, consequence, or reason based on stated facts.",                               "probability": 0.167},
+        {"name": "multi_hop_reasoning",          "description": "A question requiring multiple connected reasoning steps, such as chaining together facts from different parts of the document to reach a conclusion.",                                              "probability": 0.166},
+        {"name": "comparative_synthesis",        "description": "A question requiring structured comparison and synthesis, such as identifying similarities/differences, trade-offs, or relationships between multiple entities or concepts across the document.",     "probability": 0.166}
+      ]
+    },
+
+    "question_answertype_coarse": {
+      "categorization_name": "question_answertype",
+      "categories": [
+        {"name": "extractive",  "description": "A question whose answer can be directly extracted as one or more contiguous text spans from the document without requiring rephrasing or synthesis.", "probability": 0.5},
+        {"name": "abstractive", "description": "A question whose answer requires generating new text through paraphrasing, summarizing, or synthesizing information rather than extracting exact phrases from the document.", "probability": 0.5}
+      ]
+    },
+
+    "question_answertype_medium": {
+      "categorization_name": "question_answertype",
+      "categories": [
+        {"name": "short_span_extraction", "description": "A question whose answer is a short phrase or single sentence that can be copied verbatim from the document.",                                                                              "probability": 0.25},
+        {"name": "list_or_enumeration",   "description": "A question whose answer is a list of items, steps, or elements that requires collecting and potentially organizing information from one or more parts of the document.",             "probability": 0.25},
+        {"name": "summary_or_explanation","description": "A question whose answer requires summarizing a concept, process, or event described in the document using condensed or rephrased language.",                                         "probability": 0.25},
+        {"name": "synthesis_or_analysis", "description": "A question whose answer requires synthesizing multiple pieces of information or analyzing relationships, causes, effects, or implications discussed in the document.",               "probability": 0.25}
+      ]
+    },
+
+    "question_linguisticvariation_medium": {
+      "categorization_name": "question_linguisticvariation",
+      "categories": [
+        {"name": "exact_terminology",   "description": "A question using key terms and phrases that appear verbatim in the document, making lexical matching straightforward.",                                                                   "probability": 0.25},
+        {"name": "partial_overlap",     "description": "A question where some key terms match the document while others use synonyms or related expressions, creating moderate lexical distance.",                                               "probability": 0.25},
+        {"name": "synonym_substitution","description": "A question where most or all key terms are replaced with synonyms or semantically equivalent phrases not found in the document.",                                                       "probability": 0.25},
+        {"name": "conceptual_rephrase", "description": "A question that describes the same concept or entity as the document but using entirely different vocabulary and conceptual framing.",                                                    "probability": 0.25}
+      ]
+    }
+  }
+}

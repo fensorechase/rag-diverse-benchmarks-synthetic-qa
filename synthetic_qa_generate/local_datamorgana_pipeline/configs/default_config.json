@@ -1,0 +1,94 @@
+{
+  "_comment": "Default DataMorgana-style config. Mirrors the categorizations used in the CIKM RAG Study paper. Edit freely — add/remove categorizations and categories as you wish. Probabilities within each categorization must sum to 1.0.",
+
+  "question_categorizations": [
+    {
+      "categorization_name": "question_factuality",
+      "categories": [
+        {
+          "name": "factoid",
+          "description": "A question seeking a specific, concise piece of information or a short fact about a particular subject, such as a name, date, or number.",
+          "probability": 0.5
+        },
+        {
+          "name": "open_ended",
+          "description": "A question inviting detailed or exploratory responses, encouraging discussion or elaboration.",
+          "probability": 0.5
+        }
+      ]
+    },
+    {
+      "categorization_name": "question_premise",
+      "categories": [
+        {
+          "name": "direct",
+          "description": "A question that does not contain any premise or any information about the user.",
+          "probability": 0.5
+        },
+        {
+          "name": "with_premise",
+          "description": "A question starting with a very short premise, where the user reveals their needs or some information about themselves.",
+          "probability": 0.5
+        }
+      ]
+    },
+    {
+      "categorization_name": "question_phrasing",
+      "categories": [
+        {
+          "name": "concise_and_natural",
+          "description": "A question phrased in the way people typically speak, reflecting everyday language use, without formal or artificial structure. It is a concise direct question consisting of less than 10 words.",
+          "probability": 0.25
+        },
+        {
+          "name": "verbose_and_natural",
+          "description": "A question phrased in the way people typically speak, reflecting everyday language use, without formal or artificial structure. It is a relatively long question consisting of more than 9 words.",
+          "probability": 0.25
+        },
+        {
+          "name": "short_search_query",
+          "description": "A question phrased as a typed web query for search engines (only keywords, without punctuation and without a natural-sounding structure). It consists of less than 7 words.",
+          "probability": 0.25
+        },
+        {
+          "name": "long_search_query",
+          "description": "A question phrased as a typed web query for search engines (only keywords, without punctuation and without a natural-sounding structure). It consists of more than 6 words.",
+          "probability": 0.25
+        }
+      ]
+    },
+    {
+      "categorization_name": "question_linguisticvariation",
+      "categories": [
+        {
+          "name": "similar_to_document",
+          "description": "A question phrased using the same terminology and phrases appearing in the document.",
+          "probability": 0.5
+        },
+        {
+          "name": "distant_from_document",
+          "description": "A question phrased using terms completely different from the ones appearing in the document.",
+          "probability": 0.5
+        }
+      ]
+    }
+  ],
+
+  "user_categorizations": [
+    {
+      "categorization_name": "user_expertise",
+      "categories": [
+        {
+          "name": "expert",
+          "description": "A specialized user with deep understanding of the corpus.",
+          "probability": 0.5
+        },
+        {
+          "name": "novice",
+          "description": "A regular user with no understanding of specialized terms.",
+          "probability": 0.5
+        }
+      ]
+    }
+  ]
+}

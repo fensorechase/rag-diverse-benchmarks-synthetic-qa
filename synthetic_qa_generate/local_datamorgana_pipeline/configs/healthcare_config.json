@@ -1,0 +1,79 @@
+{
+  "_comment": "Example domain-specific config for a healthcare/biomedical corpus. Mirrors the CORD-19 scenario from the DataMorgana paper (Filice et al., 2025). Swap user categories for any other domain (legal, financial, technical support, etc.).",
+
+  "question_categorizations": [
+    {
+      "categorization_name": "question_factuality",
+      "categories": [
+        {
+          "name": "factoid",
+          "description": "A question seeking a specific, concise piece of clinical or scientific information such as a drug name, dosage, date, or numerical finding.",
+          "probability": 0.4
+        },
+        {
+          "name": "open_ended",
+          "description": "A question inviting a detailed explanation of a medical concept, treatment approach, or research finding.",
+          "probability": 0.6
+        }
+      ]
+    },
+    {
+      "categorization_name": "question_phrasing",
+      "categories": [
+        {
+          "name": "lay_language",
+          "description": "A question written in plain, everyday language that avoids medical jargon, as a member of the public would ask it.",
+          "probability": 0.5
+        },
+        {
+          "name": "clinical_language",
+          "description": "A question written using precise medical or scientific terminology, as a healthcare professional or researcher would phrase it.",
+          "probability": 0.5
+        }
+      ]
+    },
+    {
+      "categorization_name": "question_linguisticvariation",
+      "categories": [
+        {
+          "name": "similar_to_document",
+          "description": "A question phrased using the same technical terms and phrases appearing in the source document.",
+          "probability": 0.5
+        },
+        {
+          "name": "distant_from_document",
+          "description": "A question phrased using terms completely different from those in the source document (e.g. common synonyms, alternative clinical names, lay descriptions).",
+          "probability": 0.5
+        }
+      ]
+    }
+  ],
+
+  "user_categorizations": [
+    {
+      "categorization_name": "user_role",
+      "categories": [
+        {
+          "name": "patient",
+          "description": "A regular patient who uses the system to get basic health information, understand symptoms, and learn about treatment options in accessible language.",
+          "probability": 0.3
+        },
+        {
+          "name": "medical_doctor",
+          "description": "A medical doctor who needs to access advanced clinical information, treatment protocols, or drug interactions.",
+          "probability": 0.35
+        },
+        {
+          "name": "clinical_researcher",
+          "description": "A clinical researcher who uses the system to access population health data, study methodologies, and research findings.",
+          "probability": 0.2
+        },
+        {
+          "name": "public_health_authority",
+          "description": "A public health authority who uses the system to manage community health information and respond to health emergencies.",
+          "probability": 0.15
+        }
+      ]
+    }
+  ]
+}

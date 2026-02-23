@@ -1,73 +1,89 @@
-# rag-diverse-benchmarks-synthetic-qa
+# Hybrid RAG with Diverse Dynamic Test Sets
 
-This repository contains our implementation for the short paper manuscript "Designing Diverse RAG Benchmarks: A Hierarchical Framework for Synthetic Question Generation"
+Code for the paper *"Investigating Hybrid Retrieval Strategies for Augmented Generation over Diverse Dynamic Test Sets"*.
 
-**For expanded tables and extended metrics -- please see [Extended Results](./extended_results.md).**
+**[Extended Results](./extended_results.md)** — supplementary tables referenced in the paper.
 
-## Installation
+---
 
-```bash
-# Clone repository
-git clone (from https://anonymous.4open.science/r/rag-diverse-benchmarks-synthetic-qa-3E08)
-# Install dependencies
-pip install -r requirements.txt
-python -m spacy download en_core_web_lg
+## Repository structure
+
+```
+├── rag_system/
+│   └── generate/
+│       ├── compute_rag_metrics.py
+│       ├── generate/
+            ├── config.py                      # RAG system settings
+            ├── main.py                        # Answer generation entry point
+            ├── retriever_utils.py
+            ├── utils.py
+            ├── complete_analysis.py           # Full evaluation
+            ├── analyze_rq3_interactions.py
+            └── complete_analysis_results.json # Full per-question results (5,872 rows)
+│       ├── human_judging/
+            ├── completed_human/               # Two annotators' completed annotations for synthetic QA dataset sample.
+            ├── 1_aggregate_RQ1_2_3.py
+            ├── ...                            # Steps 2-8 (prepare synthetic QA for human annotation, analyze)
+            └── 9_plot_cr_human_correlation.py
+│       └── results/
+            ├── rq1_results_total.jsonl
+            ├── rq2_results_total.jsonl
+            └── rq3_results_total.jsonl
+│ 
+│
+└── synthetic_qa_generate/
+    ├── Driver_Synthetic_QA_RAG_Benchmark.ipynb  # DataMorgana API generation (ai71 account required)
+    ├── categorization_configs.py                # All categorizations used in RQ1–RQ3
+    ├── EXTRA_categorization_configs.py          # Additional fine-grained categories
+    ├── QAs_RQ1/                                 # rq1_total_all_questions.jsonl
+    ├── QAs_RQ2/                                 # rq2_total_all_questions.jsonl
+    ├── QAs_RQ3/                                 # rq3_total_all_questions.jsonl
+    └── local_datamorgana_pipeline/              # ← Run generation WITHOUT the DataMorgana API
+        ├── README_local_datamorgana.md
+        ├── datamorgana_local.py                 # Use this option to run pipeline via python script
+        ├── Driver_Local_DataMorgana.ipynb       # Alternative, use this option to run pipeline via ipynb
+        ├── configs/                             # Gives 3 example configurations (can be adjusted as needed)
+        └── sample_corpus/
 ```
 
-Also, ensure you populate your .env file with your Huggingface and ai71 tokens.
+---
 
-## Usage
+## Reproducing the experiments
 
-1. You may choose to generate synthetic QAs using DataMorgana, if you have an ai71 account.
+### Step 1 — Synthetic QA generation
 
-```bash
-cd synthetic_qa_generate
-```
+**Option A (exact replication):** Use the DataMorgana API via ai71 (requires an account and API key).
+See `synthetic_qa_generate/Driver_Synthetic_QA_RAG_Benchmark.ipynb`.
+The pre-generated datasets are already in `QAs_RQ1/`, `QAs_RQ2/`, `QAs_RQ3/` if you want to skip this step.
 
-... and run steps in Driver_Synthetic_QA_RAG_Benchmark.ipynb
+**Option B (no API needed):** Use the local pipeline to generate new synthetic QAs from your own corpus
+with any HuggingFace-compatible model. See `synthetic_qa_generate/local_datamorgana_pipeline/README_local_datamorgana.md`.
 
-2. Then, on a GPU-capable system, generate answers using the baseline RAG system (BM25, Flacon-3-10B-Instruct)
+### Step 2 — Generate RAG answers
 
-- If desired, you may adjust your RAG, language model system settings in rag_system/generate/config.py, and the shell script gen_temp.sh.
-
-The shell script runs answer generation in parallel for synthetic QAs in RQ1, RQ2, RQ3:
+Requires a GPU. Edit settings in `rag_system/generate/config.py`, then:
 
 ```bash
 cd rag_system/generate
 sbatch gen_temp.sh
 ```
 
-3. To analyze results from this answer generation, inside rag_system/generate, run:
+### Step 3 — Evaluate
 
 ```bash
 sbatch analyze_temp.sh
 ```
 
-## Project Structure
+Full per-question results are already available in `complete_analysis_results.json`.
 
-```
-rag_system/
-├── generate/                       # Answer generation
-├── config.py                       # Configuration settings
-├── main.py                         # Main execution script
-├── retriever_utils.py              # Retrieval components
-├── utils.py                        # Utility functions
-├── complete_analysis.py            # Evaluation script
-├── compute_rag_metrics.py          # Evaluation script
-├── analyze_rq3_interactions.py     # Evaluation script
-├── complete_analysis_results.json  # Results of full evaluation 
-├── results/                        # Results directory
-├── rq1_results_total.jsonl
-├── rq2_results_total.jsonl
-└── rq3_results_total.jsonl
+---
 
-synthetic_qa_generate/
-├── Driver_Synthetic_QA_RAG_Benchmark.ipynb # Driver notebook - all synthetic data generation via DataMorgana
-├── example_DataMorgana_pipeline/ # 10 eg. prompts used to generate 100 synthetic QAs with DataMorgana. 
-├── QAs_RQ1/ # Contains rq1_total_all_questions.jsonl
-├── QAs_RQ2/ # Contains rq2_total_all_questions.jsonl
-├── QAs_RQ3/ # Contains rq3_total_all_questions.jsonl
-├── categorization_configs.py
-├── EXTRA_categorization_configs.py
-└── README_qagen.md # Additional details for the synthetic QA generation process.
+## Installation
+
+```bash
+git clone <repo_url>
+pip install -r requirements.txt
+python -m spacy download en_core_web_lg
 ```
+
+Populate `.env` with your HuggingFace token (and ai71 token if using Option A).

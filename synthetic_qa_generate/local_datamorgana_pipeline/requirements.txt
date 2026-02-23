@@ -1,0 +1,14 @@
+# Core generation dependencies
+transformers>=4.40.0
+torch>=2.1.0
+accelerate>=0.27.0
+
+# Optional: 4-bit quantisation (reduces VRAM requirement ~4×)
+# bitsandbytes>=0.42.0
+
+# Optional: faster tokenisation
+sentencepiece>=0.2.0
+protobuf>=3.20.0
+
+# Utilities (already present in most ML environments)
+tqdm>=4.65.0
