@@ -4,6 +4,11 @@ Code for the paper *"Investigating Hybrid Retrieval Strategies for Augmented Gen
 
 **[Extended Results](./extended_results.md)** — supplementary tables referenced in the paper.
 
+
+![Figure Hierarchical structure of three question dimensions (QC, AT, LV) ](figures/Figure_1_categories.png)
+
+**Figure**: Hierarchical structure of three question dimensions (QC, AT, LV) across three granularity levels. Each dimension subdivides from coarse (2 categories) to medium (4) to fine (8). User Expertise set to “Novice” for example QAs shown.
+
 ---
 
 ## Repository structure
