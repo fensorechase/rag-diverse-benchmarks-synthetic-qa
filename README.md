@@ -1,6 +1,9 @@
 # Hybrid RAG with Diverse Dynamic Test Sets
 
-Code for the paper *"Investigating Hybrid Retrieval Strategies for Augmented Generation over Diverse Dynamic Test Sets"*.
+[SIGIR 2026] Code for:  *"How Fine-Grained Should a RAG Benchmark Be? A Hierarchical Framework for Synthetic Question Generation,"* short paper accepted at SIGIR 2026.
+
+[![DOI](https://img.shields.io/badge/DOI-10.1145/3805712.3809925-blue.svg)](https://doi.org/10.1145/3805712.3809925)
+[![Scholar](https://img.shields.io/badge/Google%20Scholar-Article-blue?logo=google-scholar)](https://scholar.google.com/scholar?oi=bibs&cluster=YOUR_CITATION_ID)
 
 **[Extended Results](./extended_results.md)** — supplementary tables referenced in the paper.
 
@@ -92,3 +95,22 @@ python -m spacy download en_core_web_lg
 ```
 
 Populate `.env` with your HuggingFace token (and ai71 token if using Option A).
+
+
+## Citation
+If you find this repository valuable for your research, we kindly request that you acknowledge our paper by citing the following paper. We appreciate your consideration.
+
+If you use this work, please cite:
+
+```bibtex
+@inproceedings{fensore2026finegrainedrag,
+  author = {Fensore, Chase M. and Dhole, Kaustubh and Fan, Jason and Agichtein, Eugene and Ho, Joyce C.},
+  title = {How Fine-Grained Should a RAG Benchmark Be? A Hierarchical Framework for Synthetic Question Generation},
+  booktitle = {Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '26)},
+  year = {2026},
+  location = {Melbourne, VIC, Australia},
+  publisher = {ACM},
+  doi = {10.1145/3805712.3809925}
+}
+```
+
