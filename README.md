@@ -8,7 +8,7 @@
 
 ## Watch Video (YouTube)
 <p align="center">
-  <a href="[https://youtu.be/S4agRPN-I2](https://www.youtube.com/watch?v=S4agRPN-I2E)E">
+  <a href="https://youtu.be/S4agRPN-I2E">
     <img src="figures/demo_thumbnail_play.jpg" alt="Watch Recording (2 min)" width="700">
   </a>
 </p>
