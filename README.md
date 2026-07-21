@@ -6,10 +6,10 @@
 [![Scholar](https://img.shields.io/badge/Google%20Scholar-Article-blue?logo=google-scholar)](https://scholar.google.com/scholar?oi=bibs&cluster=YOUR_CITATION_ID)
 
 
-## Watch Video (2 minutes)
+## Watch Video (YouTube)
 <p align="center">
   <a href="[https://youtu.be/S4agRPN-I2](https://www.youtube.com/watch?v=S4agRPN-I2E)E">
-    <img src="figures/demo_thumbnail_play.png" alt="Watch Recording (2 min)" width="700">
+    <img src="figures/demo_thumbnail_play.jpg" alt="Watch Recording (2 min)" width="700">
   </a>
 </p>
 
