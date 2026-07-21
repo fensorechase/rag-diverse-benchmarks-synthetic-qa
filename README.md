@@ -5,12 +5,18 @@
 [![DOI](https://img.shields.io/badge/DOI-10.1145/3805712.3809925-blue.svg)](https://doi.org/10.1145/3805712.3809925)
 [![Scholar](https://img.shields.io/badge/Google%20Scholar-Article-blue?logo=google-scholar)](https://scholar.google.com/scholar?oi=bibs&cluster=YOUR_CITATION_ID)
 
+
+## Watch Video (2 minutes)
+<p align="center">
+  <a href="[https://youtu.be/S4agRPN-I2](https://www.youtube.com/watch?v=S4agRPN-I2E)E">
+    <img src="figures/demo_thumbnail_play.png" alt="Watch Recording (2 min)" width="700">
+  </a>
+</p>
+
+
+## Overview
+
 **[Extended Results](./extended_results.md)** — supplementary tables referenced in the paper.
-
-
-
-[![Watch Recording (2 min)](https://img.youtube.com/vi/S4agRPN-I2E/maxresdefault.jpg)](https://www.youtube.com/watch?v=S4agRPN-I2E)
-
 
 ![Figure Hierarchical structure of three question dimensions (QC, AT, LV) ](figures/Figure_1_categories.png)
 
